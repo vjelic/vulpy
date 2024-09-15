@@ -1,0 +1,54 @@
+# This is a basic workflow to help you get started with Actions
+
+name: scan
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "master" branch
+  # push:
+  #   branches: [ "master" ]
+  # pull_request:
+  #   branches: [ "master" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  glog-scan:
+    # The type of runner that the job will run on
+    runs-on: self-hosted
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      # Runs a single command using the runners shell
+      # - name: Run a one-line script
+      #   run: echo Hello, Learning Github Actions!!
+
+      # Runs a set of commands using the runners shell
+      - name: Execute scan
+        run: |
+          rm $GITHUB_WORKSPACE/.glog/*
+          export JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
+          mvn clean compile
+          /home/vjelic/Documents/Projects/glog-tools/glog.sh scan --path $GITHUB_WORKSPACE --lang java
+          /usr/lib/jvm/java-21-openjdk-amd64/bin/java -jar /home/vjelic/Documents/Projects/glog-resolver/target/glog-resolver-0.10.1-jar-with-dependencies.jar -t "$GITHUB_WORKSPACE/.glog" "$GITHUB_WORKSPACE"
+
+      - name: Commit reports
+        run: |
+          git config --global user.name 'vjelic'
+          git config --global user.email 'jelicvladimir5@gmail.com'
+          git commit -am "Scan executed"
+          git push
+
+      - name: Upload report
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: .glog/glog-scan.sarif
+          category: my-analysis-tool
+
+          
