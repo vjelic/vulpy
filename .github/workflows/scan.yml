@@ -32,7 +32,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Execute scan
         run: |
-          # rm $GITHUB_WORKSPACE/.glog/*
+          rm $GITHUB_WORKSPACE/.glog/*
           /home/vjelic/Documents/Projects/glog-tools/glog.sh scan --path $GITHUB_WORKSPACE --lang python
           /usr/lib/jvm/java-21-openjdk-amd64/bin/java -jar /home/vjelic/Documents/Projects/glog-resolver/target/glog-resolver-0.10.1-jar-with-dependencies.jar -t "$GITHUB_WORKSPACE/.glog" "$GITHUB_WORKSPACE"
 
