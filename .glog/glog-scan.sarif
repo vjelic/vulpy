@@ -12,7 +12,7 @@
           "informationUri": "https://www.glog.ai",
           "rules": [
             {
-              "id": "glog-b0098343-e012-401d-ae74-9e933231ab5f",
+              "id": "glog-8b2f6112-05ef-4a52-839b-ce56f91e2a7c",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
@@ -27,7 +27,7 @@
               }
             },
             {
-              "id": "glog-8e1313e0-7e9a-4822-9dbf-35b927fc0871",
+              "id": "glog-def65b62-7765-47de-aa6c-f6cb8fefc6bc",
               "name": "hardcoded_sql_expressions",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b608_hardcoded_sql_expressions.html",
               "help": {
@@ -42,7 +42,7 @@
               }
             },
             {
-              "id": "glog-86ca9819-1d51-49df-8d5b-9975ec41b076",
+              "id": "glog-9c48a9a2-45e9-403c-986a-67bc40c113e4",
               "name": "hardcoded_sql_expressions",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b608_hardcoded_sql_expressions.html",
               "help": {
@@ -57,7 +57,7 @@
               }
             },
             {
-              "id": "glog-44b84ba8-9933-477c-9319-1e18b5daa311",
+              "id": "glog-4047068e-cf6f-45fd-93ca-c402490d8cf0",
               "name": "flask_debug_true",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html",
               "help": {
@@ -72,7 +72,7 @@
               }
             },
             {
-              "id": "glog-2ecfcc8c-fe2b-48cb-9271-bd0104e38fc0",
+              "id": "glog-510d8645-2419-404a-b63b-afa9bed33f27",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
@@ -87,7 +87,7 @@
               }
             },
             {
-              "id": "glog-94d7da74-e0cd-4df6-9041-1ed697ba62a9",
+              "id": "glog-c7619838-cfed-4e16-bae1-37d667716bb3",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
@@ -102,7 +102,7 @@
               }
             },
             {
-              "id": "glog-b707a8aa-44c3-4545-8fba-2e63d33d72f4",
+              "id": "glog-263ecee3-c624-46e5-adc9-1a878fe27676",
               "name": "flask_debug_true",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html",
               "help": {
@@ -117,7 +117,7 @@
               }
             },
             {
-              "id": "glog-e36efa79-078f-4101-acf3-69ef5cfc5501",
+              "id": "glog-7bae0992-c894-40c8-8818-51bb03c16291",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
@@ -132,7 +132,7 @@
               }
             },
             {
-              "id": "glog-ad21339c-bc24-4e53-a9bb-7f9b3ca5e308",
+              "id": "glog-ce9aca88-df13-455a-a87c-597632ae1ae4",
               "name": "flask_debug_true",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html",
               "help": {
@@ -147,7 +147,7 @@
               }
             },
             {
-              "id": "glog-99f12667-20e9-49b6-ac69-62e4f5ce75ad",
+              "id": "glog-e039b4da-1be6-45fb-8ab4-01db8002b6e5",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
@@ -162,7 +162,7 @@
               }
             },
             {
-              "id": "glog-15baa404-dac8-4dfc-ac60-fb5467a99998",
+              "id": "glog-07a11613-d932-4516-9a6d-4c119f5a4903",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
@@ -177,7 +177,7 @@
               }
             },
             {
-              "id": "glog-57f82fe3-3c54-48b7-94ca-286f15703232",
+              "id": "glog-3edbf01b-803f-4af8-9dd0-b8acc352f84e",
               "name": "flask_debug_true",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html",
               "help": {
@@ -192,7 +192,7 @@
               }
             },
             {
-              "id": "glog-8b643cb7-9b31-446a-955a-ff200c69c76e",
+              "id": "glog-60f7d0d7-a93f-4eef-a5d7-b7c1a197875e",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
@@ -207,7 +207,7 @@
               }
             },
             {
-              "id": "glog-522134b5-20b3-43cf-8200-18fed2bbf3d2",
+              "id": "glog-d81a2f5e-1839-4ffd-8381-4403cb8b6fc3",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
@@ -222,7 +222,7 @@
               }
             },
             {
-              "id": "glog-0adf6ce9-d47a-4dc6-bd84-b16aa9fb2cda",
+              "id": "glog-753bbc4f-a0ad-4fe7-8094-1961a5480a88",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
@@ -237,7 +237,7 @@
               }
             },
             {
-              "id": "glog-681e2f52-9b30-4af0-8594-57e9b4476ba6",
+              "id": "glog-aa7c35d2-a7d8-4eb7-802f-88ff2df6ea20",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
@@ -252,7 +252,7 @@
               }
             },
             {
-              "id": "glog-90ff2761-cd89-4a26-8be8-3652047e78b1",
+              "id": "glog-e1d84c00-af8f-4762-8285-e7773f33953b",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
@@ -267,7 +267,7 @@
               }
             },
             {
-              "id": "glog-f36b7350-0f5d-4b31-9d87-81c551b0bb12",
+              "id": "glog-7199b40b-3bb8-4a31-977d-36ca2bb2dac1",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
@@ -282,7 +282,7 @@
               }
             },
             {
-              "id": "glog-d8e0375b-8736-4bde-bffc-7993e688e93c",
+              "id": "glog-8ab69903-46a3-41af-a0e4-2e52c638790a",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
@@ -297,7 +297,7 @@
               }
             },
             {
-              "id": "glog-8f9d5251-ea84-43f5-854c-f512ae3325bd",
+              "id": "glog-544bc8c3-9b64-4c8c-be17-82272112f9da",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
@@ -312,7 +312,7 @@
               }
             },
             {
-              "id": "glog-e79ed0e9-18fc-4aee-acd1-3761b18f5ea6",
+              "id": "glog-95d46b2b-c490-47ab-89bd-8756aa36fa85",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
@@ -327,7 +327,7 @@
               }
             },
             {
-              "id": "glog-f255929d-e973-4bba-8627-c075b46cc056",
+              "id": "glog-4d167de9-2f40-472a-80b7-1a79a3eff7bb",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
@@ -342,7 +342,7 @@
               }
             },
             {
-              "id": "glog-381df68e-632b-4fd2-96f3-e7de3c48e157",
+              "id": "glog-b1929684-003d-4eed-9f80-f541f2addfc9",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
@@ -357,7 +357,7 @@
               }
             },
             {
-              "id": "glog-f9bc7331-f2e8-48c6-a820-f1081c3d2751",
+              "id": "glog-ff670201-b350-4e11-b66d-93a1d3f8b57b",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
@@ -372,7 +372,7 @@
               }
             },
             {
-              "id": "glog-beed971e-79c2-43e9-9e14-12580da3349d",
+              "id": "glog-7fbefaba-f481-411a-8b72-ea3ccf0368fd",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
@@ -387,7 +387,7 @@
               }
             },
             {
-              "id": "glog-5be440ac-9cb5-4d89-a82b-56d4dcd69b84",
+              "id": "glog-9833786f-c215-404a-8da6-1fe56f7997d6",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
@@ -402,7 +402,7 @@
               }
             },
             {
-              "id": "glog-ccbfa0f1-d240-4535-a90f-66bae17565fc",
+              "id": "glog-9f64db70-46eb-4cb0-9eb0-557bd8216323",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
@@ -428,7 +428,7 @@
       "language": "en-US",
       "results": [
         {
-          "ruleId": "glog-b0098343-e012-401d-ae74-9e933231ab5f",
+          "ruleId": "glog-8b2f6112-05ef-4a52-839b-ce56f91e2a7c",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -465,7 +465,7 @@
           }
         },
         {
-          "ruleId": "glog-8e1313e0-7e9a-4822-9dbf-35b927fc0871",
+          "ruleId": "glog-def65b62-7765-47de-aa6c-f6cb8fefc6bc",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -502,7 +502,7 @@
           }
         },
         {
-          "ruleId": "glog-86ca9819-1d51-49df-8d5b-9975ec41b076",
+          "ruleId": "glog-9c48a9a2-45e9-403c-986a-67bc40c113e4",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -539,7 +539,7 @@
           }
         },
         {
-          "ruleId": "glog-44b84ba8-9933-477c-9319-1e18b5daa311",
+          "ruleId": "glog-4047068e-cf6f-45fd-93ca-c402490d8cf0",
           "kind": "fail",
           "level": "error",
           "message": {
@@ -576,7 +576,7 @@
           }
         },
         {
-          "ruleId": "glog-2ecfcc8c-fe2b-48cb-9271-bd0104e38fc0",
+          "ruleId": "glog-510d8645-2419-404a-b63b-afa9bed33f27",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -613,7 +613,7 @@
           }
         },
         {
-          "ruleId": "glog-94d7da74-e0cd-4df6-9041-1ed697ba62a9",
+          "ruleId": "glog-c7619838-cfed-4e16-bae1-37d667716bb3",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -650,7 +650,7 @@
           }
         },
         {
-          "ruleId": "glog-b707a8aa-44c3-4545-8fba-2e63d33d72f4",
+          "ruleId": "glog-263ecee3-c624-46e5-adc9-1a878fe27676",
           "kind": "fail",
           "level": "error",
           "message": {
@@ -687,7 +687,7 @@
           }
         },
         {
-          "ruleId": "glog-e36efa79-078f-4101-acf3-69ef5cfc5501",
+          "ruleId": "glog-7bae0992-c894-40c8-8818-51bb03c16291",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -724,7 +724,7 @@
           }
         },
         {
-          "ruleId": "glog-ad21339c-bc24-4e53-a9bb-7f9b3ca5e308",
+          "ruleId": "glog-ce9aca88-df13-455a-a87c-597632ae1ae4",
           "kind": "fail",
           "level": "error",
           "message": {
@@ -761,7 +761,7 @@
           }
         },
         {
-          "ruleId": "glog-99f12667-20e9-49b6-ac69-62e4f5ce75ad",
+          "ruleId": "glog-e039b4da-1be6-45fb-8ab4-01db8002b6e5",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -798,7 +798,7 @@
           }
         },
         {
-          "ruleId": "glog-15baa404-dac8-4dfc-ac60-fb5467a99998",
+          "ruleId": "glog-07a11613-d932-4516-9a6d-4c119f5a4903",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -835,7 +835,7 @@
           }
         },
         {
-          "ruleId": "glog-57f82fe3-3c54-48b7-94ca-286f15703232",
+          "ruleId": "glog-3edbf01b-803f-4af8-9dd0-b8acc352f84e",
           "kind": "fail",
           "level": "error",
           "message": {
@@ -872,7 +872,7 @@
           }
         },
         {
-          "ruleId": "glog-8b643cb7-9b31-446a-955a-ff200c69c76e",
+          "ruleId": "glog-60f7d0d7-a93f-4eef-a5d7-b7c1a197875e",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -909,7 +909,7 @@
           }
         },
         {
-          "ruleId": "glog-522134b5-20b3-43cf-8200-18fed2bbf3d2",
+          "ruleId": "glog-d81a2f5e-1839-4ffd-8381-4403cb8b6fc3",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -946,7 +946,7 @@
           }
         },
         {
-          "ruleId": "glog-0adf6ce9-d47a-4dc6-bd84-b16aa9fb2cda",
+          "ruleId": "glog-753bbc4f-a0ad-4fe7-8094-1961a5480a88",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -983,7 +983,7 @@
           }
         },
         {
-          "ruleId": "glog-681e2f52-9b30-4af0-8594-57e9b4476ba6",
+          "ruleId": "glog-aa7c35d2-a7d8-4eb7-802f-88ff2df6ea20",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1020,7 +1020,7 @@
           }
         },
         {
-          "ruleId": "glog-90ff2761-cd89-4a26-8be8-3652047e78b1",
+          "ruleId": "glog-e1d84c00-af8f-4762-8285-e7773f33953b",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1057,7 +1057,7 @@
           }
         },
         {
-          "ruleId": "glog-f36b7350-0f5d-4b31-9d87-81c551b0bb12",
+          "ruleId": "glog-7199b40b-3bb8-4a31-977d-36ca2bb2dac1",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1094,7 +1094,7 @@
           }
         },
         {
-          "ruleId": "glog-d8e0375b-8736-4bde-bffc-7993e688e93c",
+          "ruleId": "glog-8ab69903-46a3-41af-a0e4-2e52c638790a",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1131,7 +1131,7 @@
           }
         },
         {
-          "ruleId": "glog-8f9d5251-ea84-43f5-854c-f512ae3325bd",
+          "ruleId": "glog-544bc8c3-9b64-4c8c-be17-82272112f9da",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1168,7 +1168,7 @@
           }
         },
         {
-          "ruleId": "glog-e79ed0e9-18fc-4aee-acd1-3761b18f5ea6",
+          "ruleId": "glog-95d46b2b-c490-47ab-89bd-8756aa36fa85",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1205,7 +1205,7 @@
           }
         },
         {
-          "ruleId": "glog-f255929d-e973-4bba-8627-c075b46cc056",
+          "ruleId": "glog-4d167de9-2f40-472a-80b7-1a79a3eff7bb",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1242,7 +1242,7 @@
           }
         },
         {
-          "ruleId": "glog-381df68e-632b-4fd2-96f3-e7de3c48e157",
+          "ruleId": "glog-b1929684-003d-4eed-9f80-f541f2addfc9",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1279,7 +1279,7 @@
           }
         },
         {
-          "ruleId": "glog-f9bc7331-f2e8-48c6-a820-f1081c3d2751",
+          "ruleId": "glog-ff670201-b350-4e11-b66d-93a1d3f8b57b",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1316,7 +1316,7 @@
           }
         },
         {
-          "ruleId": "glog-beed971e-79c2-43e9-9e14-12580da3349d",
+          "ruleId": "glog-7fbefaba-f481-411a-8b72-ea3ccf0368fd",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1353,7 +1353,7 @@
           }
         },
         {
-          "ruleId": "glog-5be440ac-9cb5-4d89-a82b-56d4dcd69b84",
+          "ruleId": "glog-9833786f-c215-404a-8da6-1fe56f7997d6",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1390,7 +1390,7 @@
           }
         },
         {
-          "ruleId": "glog-ccbfa0f1-d240-4535-a90f-66bae17565fc",
+          "ruleId": "glog-9f64db70-46eb-4cb0-9eb0-557bd8216323",
           "kind": "fail",
           "level": "warning",
           "message": {
