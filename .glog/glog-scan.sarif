@@ -12,12 +12,12 @@
           "informationUri": "https://www.glog.ai",
           "rules": [
             {
-              "id": "glog-dd570a1b-3979-404f-879b-281eb5d7f4d9",
+              "id": "glog-b0098343-e012-401d-ae74-9e933231ab5f",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -27,12 +27,12 @@
               }
             },
             {
-              "id": "glog-6c016991-5a6a-46c5-86af-14c264954e6e",
+              "id": "glog-8e1313e0-7e9a-4822-9dbf-35b927fc0871",
               "name": "hardcoded_sql_expressions",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b608_hardcoded_sql_expressions.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b608_hardcoded_sql_expressions.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b608_hardcoded_sql_expressions.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b608_hardcoded_sql_expressions.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b608_hardcoded_sql_expressions.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -42,12 +42,12 @@
               }
             },
             {
-              "id": "glog-94eb98ab-c788-45e1-aaf6-1b337e941ac9",
+              "id": "glog-86ca9819-1d51-49df-8d5b-9975ec41b076",
               "name": "hardcoded_sql_expressions",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b608_hardcoded_sql_expressions.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b608_hardcoded_sql_expressions.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b608_hardcoded_sql_expressions.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b608_hardcoded_sql_expressions.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b608_hardcoded_sql_expressions.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -57,12 +57,12 @@
               }
             },
             {
-              "id": "glog-b4489ecc-12aa-4f96-92f5-633cea417ee6",
+              "id": "glog-44b84ba8-9933-477c-9319-1e18b5daa311",
               "name": "flask_debug_true",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -72,12 +72,12 @@
               }
             },
             {
-              "id": "glog-8c7e89c1-54fb-410f-ad76-56f677a2027b",
+              "id": "glog-2ecfcc8c-fe2b-48cb-9271-bd0104e38fc0",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -87,12 +87,12 @@
               }
             },
             {
-              "id": "glog-89013d5c-e532-45b8-98e1-2888f273e3c5",
+              "id": "glog-94d7da74-e0cd-4df6-9041-1ed697ba62a9",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -102,12 +102,12 @@
               }
             },
             {
-              "id": "glog-af739c6d-2b67-4c8c-bb89-f6d3ba99f74a",
+              "id": "glog-b707a8aa-44c3-4545-8fba-2e63d33d72f4",
               "name": "flask_debug_true",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -117,12 +117,12 @@
               }
             },
             {
-              "id": "glog-7c07f687-e8ec-45d0-911f-0e2f4670cfe6",
+              "id": "glog-e36efa79-078f-4101-acf3-69ef5cfc5501",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -132,12 +132,12 @@
               }
             },
             {
-              "id": "glog-8f186778-4e0b-4701-91b3-a46b85637970",
+              "id": "glog-ad21339c-bc24-4e53-a9bb-7f9b3ca5e308",
               "name": "flask_debug_true",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -147,12 +147,12 @@
               }
             },
             {
-              "id": "glog-80eb5548-9a56-43b5-b1b2-122f77388978",
+              "id": "glog-99f12667-20e9-49b6-ac69-62e4f5ce75ad",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -162,12 +162,12 @@
               }
             },
             {
-              "id": "glog-02216bce-4db7-4e74-92fb-3d623f1d5d41",
+              "id": "glog-15baa404-dac8-4dfc-ac60-fb5467a99998",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -177,12 +177,12 @@
               }
             },
             {
-              "id": "glog-6db5fbd1-18f9-4fe3-975c-6bbcf9a969bd",
+              "id": "glog-57f82fe3-3c54-48b7-94ca-286f15703232",
               "name": "flask_debug_true",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -192,12 +192,12 @@
               }
             },
             {
-              "id": "glog-a96a419d-4da5-47f8-9bf2-127d4f9a6bc4",
+              "id": "glog-8b643cb7-9b31-446a-955a-ff200c69c76e",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -207,12 +207,12 @@
               }
             },
             {
-              "id": "glog-e5729ee2-e7fc-4915-b075-13e8a1141b05",
+              "id": "glog-522134b5-20b3-43cf-8200-18fed2bbf3d2",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -222,12 +222,12 @@
               }
             },
             {
-              "id": "glog-58764e74-25ed-4c47-8a4b-95228d667761",
+              "id": "glog-0adf6ce9-d47a-4dc6-bd84-b16aa9fb2cda",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -237,12 +237,12 @@
               }
             },
             {
-              "id": "glog-7c090206-8f5f-4ca1-8467-8d60660f18db",
+              "id": "glog-681e2f52-9b30-4af0-8594-57e9b4476ba6",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -252,12 +252,12 @@
               }
             },
             {
-              "id": "glog-e220e5ac-ec8d-4f4a-be76-bfbc52f4d351",
+              "id": "glog-90ff2761-cd89-4a26-8be8-3652047e78b1",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -267,12 +267,12 @@
               }
             },
             {
-              "id": "glog-e9f5d550-f181-44e2-bd52-2c9de0e0d3e6",
+              "id": "glog-f36b7350-0f5d-4b31-9d87-81c551b0bb12",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -282,12 +282,12 @@
               }
             },
             {
-              "id": "glog-ded099a4-4f75-4b19-b2c0-6851d55d148f",
+              "id": "glog-d8e0375b-8736-4bde-bffc-7993e688e93c",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -297,12 +297,12 @@
               }
             },
             {
-              "id": "glog-8743abd8-a7e4-4617-ba2c-f4c4cf73c5f4",
+              "id": "glog-8f9d5251-ea84-43f5-854c-f512ae3325bd",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -312,12 +312,12 @@
               }
             },
             {
-              "id": "glog-9b47375f-d9aa-40d0-9048-9d425cdbec4c",
+              "id": "glog-e79ed0e9-18fc-4aee-acd1-3761b18f5ea6",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -327,12 +327,12 @@
               }
             },
             {
-              "id": "glog-c1b19b48-7ec1-41a7-be50-0250100d6546",
+              "id": "glog-f255929d-e973-4bba-8627-c075b46cc056",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -342,12 +342,12 @@
               }
             },
             {
-              "id": "glog-f86ab5e4-6a46-43ea-b9ea-96e038cc691a",
+              "id": "glog-381df68e-632b-4fd2-96f3-e7de3c48e157",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -357,12 +357,12 @@
               }
             },
             {
-              "id": "glog-fd655992-807c-486c-9091-2f709c5adeb9",
+              "id": "glog-f9bc7331-f2e8-48c6-a820-f1081c3d2751",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -372,12 +372,12 @@
               }
             },
             {
-              "id": "glog-bb86c248-483b-49fc-be87-b906d1364f22",
+              "id": "glog-beed971e-79c2-43e9-9e14-12580da3349d",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -387,12 +387,12 @@
               }
             },
             {
-              "id": "glog-3b612520-a341-4123-9e81-00f238b3d978",
+              "id": "glog-5be440ac-9cb5-4d89-a82b-56d4dcd69b84",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -402,12 +402,12 @@
               }
             },
             {
-              "id": "glog-6ecf7389-2422-48f5-aec7-d77a858ed05f",
+              "id": "glog-ccbfa0f1-d240-4535-a90f-66bae17565fc",
               "name": "hardcoded_tmp_directory",
               "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
               "help": {
                 "text": "",
-                "markdown": "\"Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details.\""
+                "markdown": "Visit [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html) for more details."
               },
               "properties": {
                 "precision": "medium",
@@ -428,7 +428,7 @@
       "language": "en-US",
       "results": [
         {
-          "ruleId": "glog-dd570a1b-3979-404f-879b-281eb5d7f4d9",
+          "ruleId": "glog-b0098343-e012-401d-ae74-9e933231ab5f",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -465,7 +465,7 @@
           }
         },
         {
-          "ruleId": "glog-6c016991-5a6a-46c5-86af-14c264954e6e",
+          "ruleId": "glog-8e1313e0-7e9a-4822-9dbf-35b927fc0871",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -502,7 +502,7 @@
           }
         },
         {
-          "ruleId": "glog-94eb98ab-c788-45e1-aaf6-1b337e941ac9",
+          "ruleId": "glog-86ca9819-1d51-49df-8d5b-9975ec41b076",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -539,7 +539,7 @@
           }
         },
         {
-          "ruleId": "glog-b4489ecc-12aa-4f96-92f5-633cea417ee6",
+          "ruleId": "glog-44b84ba8-9933-477c-9319-1e18b5daa311",
           "kind": "fail",
           "level": "error",
           "message": {
@@ -576,7 +576,7 @@
           }
         },
         {
-          "ruleId": "glog-8c7e89c1-54fb-410f-ad76-56f677a2027b",
+          "ruleId": "glog-2ecfcc8c-fe2b-48cb-9271-bd0104e38fc0",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -613,7 +613,7 @@
           }
         },
         {
-          "ruleId": "glog-89013d5c-e532-45b8-98e1-2888f273e3c5",
+          "ruleId": "glog-94d7da74-e0cd-4df6-9041-1ed697ba62a9",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -650,7 +650,7 @@
           }
         },
         {
-          "ruleId": "glog-af739c6d-2b67-4c8c-bb89-f6d3ba99f74a",
+          "ruleId": "glog-b707a8aa-44c3-4545-8fba-2e63d33d72f4",
           "kind": "fail",
           "level": "error",
           "message": {
@@ -687,7 +687,7 @@
           }
         },
         {
-          "ruleId": "glog-7c07f687-e8ec-45d0-911f-0e2f4670cfe6",
+          "ruleId": "glog-e36efa79-078f-4101-acf3-69ef5cfc5501",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -724,7 +724,7 @@
           }
         },
         {
-          "ruleId": "glog-8f186778-4e0b-4701-91b3-a46b85637970",
+          "ruleId": "glog-ad21339c-bc24-4e53-a9bb-7f9b3ca5e308",
           "kind": "fail",
           "level": "error",
           "message": {
@@ -761,7 +761,7 @@
           }
         },
         {
-          "ruleId": "glog-80eb5548-9a56-43b5-b1b2-122f77388978",
+          "ruleId": "glog-99f12667-20e9-49b6-ac69-62e4f5ce75ad",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -798,7 +798,7 @@
           }
         },
         {
-          "ruleId": "glog-02216bce-4db7-4e74-92fb-3d623f1d5d41",
+          "ruleId": "glog-15baa404-dac8-4dfc-ac60-fb5467a99998",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -835,7 +835,7 @@
           }
         },
         {
-          "ruleId": "glog-6db5fbd1-18f9-4fe3-975c-6bbcf9a969bd",
+          "ruleId": "glog-57f82fe3-3c54-48b7-94ca-286f15703232",
           "kind": "fail",
           "level": "error",
           "message": {
@@ -872,7 +872,7 @@
           }
         },
         {
-          "ruleId": "glog-a96a419d-4da5-47f8-9bf2-127d4f9a6bc4",
+          "ruleId": "glog-8b643cb7-9b31-446a-955a-ff200c69c76e",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -909,7 +909,7 @@
           }
         },
         {
-          "ruleId": "glog-e5729ee2-e7fc-4915-b075-13e8a1141b05",
+          "ruleId": "glog-522134b5-20b3-43cf-8200-18fed2bbf3d2",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -946,7 +946,7 @@
           }
         },
         {
-          "ruleId": "glog-58764e74-25ed-4c47-8a4b-95228d667761",
+          "ruleId": "glog-0adf6ce9-d47a-4dc6-bd84-b16aa9fb2cda",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -983,7 +983,7 @@
           }
         },
         {
-          "ruleId": "glog-7c090206-8f5f-4ca1-8467-8d60660f18db",
+          "ruleId": "glog-681e2f52-9b30-4af0-8594-57e9b4476ba6",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1020,7 +1020,7 @@
           }
         },
         {
-          "ruleId": "glog-e220e5ac-ec8d-4f4a-be76-bfbc52f4d351",
+          "ruleId": "glog-90ff2761-cd89-4a26-8be8-3652047e78b1",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1057,7 +1057,7 @@
           }
         },
         {
-          "ruleId": "glog-e9f5d550-f181-44e2-bd52-2c9de0e0d3e6",
+          "ruleId": "glog-f36b7350-0f5d-4b31-9d87-81c551b0bb12",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1094,7 +1094,7 @@
           }
         },
         {
-          "ruleId": "glog-ded099a4-4f75-4b19-b2c0-6851d55d148f",
+          "ruleId": "glog-d8e0375b-8736-4bde-bffc-7993e688e93c",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1131,7 +1131,7 @@
           }
         },
         {
-          "ruleId": "glog-8743abd8-a7e4-4617-ba2c-f4c4cf73c5f4",
+          "ruleId": "glog-8f9d5251-ea84-43f5-854c-f512ae3325bd",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1168,7 +1168,7 @@
           }
         },
         {
-          "ruleId": "glog-9b47375f-d9aa-40d0-9048-9d425cdbec4c",
+          "ruleId": "glog-e79ed0e9-18fc-4aee-acd1-3761b18f5ea6",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1205,7 +1205,7 @@
           }
         },
         {
-          "ruleId": "glog-c1b19b48-7ec1-41a7-be50-0250100d6546",
+          "ruleId": "glog-f255929d-e973-4bba-8627-c075b46cc056",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1242,7 +1242,7 @@
           }
         },
         {
-          "ruleId": "glog-f86ab5e4-6a46-43ea-b9ea-96e038cc691a",
+          "ruleId": "glog-381df68e-632b-4fd2-96f3-e7de3c48e157",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1279,7 +1279,7 @@
           }
         },
         {
-          "ruleId": "glog-fd655992-807c-486c-9091-2f709c5adeb9",
+          "ruleId": "glog-f9bc7331-f2e8-48c6-a820-f1081c3d2751",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1316,7 +1316,7 @@
           }
         },
         {
-          "ruleId": "glog-bb86c248-483b-49fc-be87-b906d1364f22",
+          "ruleId": "glog-beed971e-79c2-43e9-9e14-12580da3349d",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1353,7 +1353,7 @@
           }
         },
         {
-          "ruleId": "glog-3b612520-a341-4123-9e81-00f238b3d978",
+          "ruleId": "glog-5be440ac-9cb5-4d89-a82b-56d4dcd69b84",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1390,7 +1390,7 @@
           }
         },
         {
-          "ruleId": "glog-6ecf7389-2422-48f5-aec7-d77a858ed05f",
+          "ruleId": "glog-ccbfa0f1-d240-4535-a90f-66bae17565fc",
           "kind": "fail",
           "level": "warning",
           "message": {
