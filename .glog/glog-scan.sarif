@@ -1,0 +1,1436 @@
+{
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "Glog.AI",
+          "organization": "Glog.AI",
+          "fullName": "Glog, Making software more secure",
+          "version": "1.0.0",
+          "semanticVersion": "1.0.0",
+          "informationUri": "https://www.glog.ai",
+          "rules": [
+            {
+              "id": "glog-e8a88341-d22b-447c-b97b-8671349464b9",
+              "name": "hardcoded_tmp_directory",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-13b457a8-14e7-426b-ad0a-f4af887490a3",
+              "name": "hardcoded_sql_expressions",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b608_hardcoded_sql_expressions.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b608_hardcoded_sql_expressions.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b608_hardcoded_sql_expressions.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B608"
+                ]
+              }
+            },
+            {
+              "id": "glog-c74708e5-4664-4526-879c-20087a75de46",
+              "name": "hardcoded_sql_expressions",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b608_hardcoded_sql_expressions.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b608_hardcoded_sql_expressions.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b608_hardcoded_sql_expressions.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B608"
+                ]
+              }
+            },
+            {
+              "id": "glog-a93668f5-210d-4723-b7f5-6e35d337465e",
+              "name": "flask_debug_true",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B201"
+                ]
+              }
+            },
+            {
+              "id": "glog-dc68434d-ab60-4156-9551-756adb46ee5a",
+              "name": "hardcoded_tmp_directory",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-817b96b3-ef2b-41a8-9593-868a653b63ff",
+              "name": "hardcoded_tmp_directory",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-7a41e813-feb8-49fe-acf9-ab17209f0251",
+              "name": "flask_debug_true",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B201"
+                ]
+              }
+            },
+            {
+              "id": "glog-5f351a2b-4776-4879-b901-8ba569a5ab81",
+              "name": "hardcoded_tmp_directory",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-5a55fd09-45f5-4ac9-8ada-86a71b46c3af",
+              "name": "flask_debug_true",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B201"
+                ]
+              }
+            },
+            {
+              "id": "glog-690cffb3-73a3-4e85-a194-11b9c91a9731",
+              "name": "hardcoded_tmp_directory",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-30b1dc97-d382-42ff-ac65-88d30c1d1dec",
+              "name": "hardcoded_tmp_directory",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-5e0919e2-84d5-440f-9fc4-60c9a559091c",
+              "name": "flask_debug_true",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b201_flask_debug_true.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B201"
+                ]
+              }
+            },
+            {
+              "id": "glog-a7661173-211b-4281-a8d7-c36cfc2a6934",
+              "name": "hardcoded_tmp_directory",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-cc3d6bab-c91c-459d-88ba-d575997af5fc",
+              "name": "hardcoded_tmp_directory",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-d103d207-5491-4fa0-8f28-85a1e3047960",
+              "name": "hardcoded_tmp_directory",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-0ef85851-43e4-44cb-8d44-94be990e72d1",
+              "name": "hardcoded_tmp_directory",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-a03282ca-aa76-4dcb-a326-651f483a2899",
+              "name": "hardcoded_tmp_directory",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-dc32b020-8c32-433b-8871-25ff21df48c5",
+              "name": "hardcoded_tmp_directory",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-6c1f33fd-7cfb-4087-b009-da46568c1aa0",
+              "name": "hardcoded_tmp_directory",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-2a755d80-45a1-421a-85b7-c7bafd277768",
+              "name": "hardcoded_tmp_directory",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-5b5b5e0d-5f9e-4cbc-8726-f5d2d2e7fd4f",
+              "name": "hardcoded_tmp_directory",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-b4546a80-3ec0-4727-8812-54f040ecea32",
+              "name": "hardcoded_tmp_directory",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-86cae3e9-225f-4b77-b6cf-435daa07b80c",
+              "name": "hardcoded_tmp_directory",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-d0e41555-d07c-42de-866b-e686e00f016b",
+              "name": "hardcoded_tmp_directory",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-bc98b74c-3b2e-4ba9-a0d8-8347f502bdab",
+              "name": "hardcoded_tmp_directory",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-5b0be14f-c66b-4dbd-bb18-38d584ba474d",
+              "name": "hardcoded_tmp_directory",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-16f56aea-1230-4eed-b979-9e28c8f371b1",
+              "name": "hardcoded_tmp_directory",
+              "helpUri": "https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html",
+              "help": {
+                "text": "",
+                "markdown": "For more details, visit: [https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html](https://bandit.readthedocs.io/en/1.7.8/plugins/b108_hardcoded_tmp_directory.html)."
+              },
+              "properties": {
+                "precision": "medium",
+                "tags": [
+                  "B108"
+                ]
+              }
+            }
+          ],
+          "language": "en-US",
+          "contents": [
+            "localizedData",
+            "nonLocalizedData"
+          ],
+          "isComprehensive": false
+        }
+      },
+      "language": "en-US",
+      "results": [
+        {
+          "ruleId": "glog-e8a88341-d22b-447c-b97b-8671349464b9",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bad/api_post.py"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 21,
+                  "endLine": 6,
+                  "endColumn": 43,
+                  "snippet": {
+                    "text": "api_key_file = Path('/tmp/supersecret.txt')\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 5,
+                  "endLine": 7,
+                  "snippet": {
+                    "text": "\napi_key_file = Path('/tmp/supersecret.txt')\n\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-13b457a8-14e7-426b-ad0a-f4af887490a3",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection vector through string-based query construction."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bad/db.py"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 19,
+                  "endLine": 19,
+                  "endColumn": 91,
+                  "snippet": {
+                    "text": "        c.execute(\"INSERT INTO users (user, password, failures) VALUES ('%s', '%s', '%d')\" %(u, p, 0))\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 18,
+                  "endLine": 20,
+                  "snippet": {
+                    "text": "    for u,p in users:\n        c.execute(\"INSERT INTO users (user, password, failures) VALUES ('%s', '%s', '%d')\" %(u, p, 0))\n\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-c74708e5-4664-4526-879c-20087a75de46",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection vector through string-based query construction."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bad/db_init.py"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 19,
+                  "endLine": 20,
+                  "endColumn": 132,
+                  "snippet": {
+                    "text": "        c.execute(\"INSERT INTO users (username, password, failures, mfa_enabled, mfa_secret) VALUES ('%s', '%s', '%d', '%d', '%s')\" %(u, p, 0, 0, ''))\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 19,
+                  "endLine": 21,
+                  "snippet": {
+                    "text": "    for u,p in users:\n        c.execute(\"INSERT INTO users (username, password, failures, mfa_enabled, mfa_secret) VALUES ('%s', '%s', '%d', '%d', '%s')\" %(u, p, 0, 0, ''))\n\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-a93668f5-210d-4723-b7f5-6e35d337465e",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bad/vulpy-ssl.py"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 1,
+                  "endLine": 29,
+                  "endColumn": 87,
+                  "snippet": {
+                    "text": "app.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 28,
+                  "endLine": 29,
+                  "snippet": {
+                    "text": "\napp.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "HIGH",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-dc68434d-ab60-4156-9551-756adb46ee5a",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bad/vulpy-ssl.py"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 52,
+                  "endLine": 29,
+                  "endColumn": 68,
+                  "snippet": {
+                    "text": "app.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 28,
+                  "endLine": 29,
+                  "snippet": {
+                    "text": "\napp.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-817b96b3-ef2b-41a8-9593-868a653b63ff",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bad/vulpy-ssl.py"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 70,
+                  "endLine": 29,
+                  "endColumn": 85,
+                  "snippet": {
+                    "text": "app.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 28,
+                  "endLine": 29,
+                  "snippet": {
+                    "text": "\napp.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-7a41e813-feb8-49fe-acf9-ab17209f0251",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bad/vulpy.py"
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 1,
+                  "endLine": 55,
+                  "endColumn": 72,
+                  "snippet": {
+                    "text": "app.run(debug=True, host='127.0.1.1', port=5000, extra_files='csp.txt')\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 54,
+                  "endLine": 55,
+                  "snippet": {
+                    "text": "\napp.run(debug=True, host='127.0.1.1', port=5000, extra_files='csp.txt')\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "HIGH",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-5f351a2b-4776-4879-b901-8ba569a5ab81",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "good/cutpasswd.py"
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 11,
+                  "endLine": 3,
+                  "endColumn": 42,
+                  "snippet": {
+                    "text": "with open('/tmp/darkweb2017-top10000.txt') as f:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 2,
+                  "endLine": 4,
+                  "snippet": {
+                    "text": "\nwith open('/tmp/darkweb2017-top10000.txt') as f:\n    for password in f.readlines():\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-5a55fd09-45f5-4ac9-8ada-86a71b46c3af",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "good/vulpy-ssl.py"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 1,
+                  "endLine": 29,
+                  "endColumn": 87,
+                  "snippet": {
+                    "text": "app.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 28,
+                  "endLine": 29,
+                  "snippet": {
+                    "text": "\napp.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "HIGH",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-690cffb3-73a3-4e85-a194-11b9c91a9731",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "good/vulpy-ssl.py"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 52,
+                  "endLine": 29,
+                  "endColumn": 68,
+                  "snippet": {
+                    "text": "app.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 28,
+                  "endLine": 29,
+                  "snippet": {
+                    "text": "\napp.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-30b1dc97-d382-42ff-ac65-88d30c1d1dec",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "good/vulpy-ssl.py"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 70,
+                  "endLine": 29,
+                  "endColumn": 85,
+                  "snippet": {
+                    "text": "app.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 28,
+                  "endLine": 29,
+                  "snippet": {
+                    "text": "\napp.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-5e0919e2-84d5-440f-9fc4-60c9a559091c",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "good/vulpy.py"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 1,
+                  "endLine": 53,
+                  "endColumn": 72,
+                  "snippet": {
+                    "text": "app.run(debug=True, host='127.0.1.1', port=5001, extra_files='csp.txt')\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 52,
+                  "endLine": 54,
+                  "snippet": {
+                    "text": "\napp.run(debug=True, host='127.0.1.1', port=5001, extra_files='csp.txt')\n\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "HIGH",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-a7661173-211b-4281-a8d7-c36cfc2a6934",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/ca-create.py"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 11,
+                  "endLine": 31,
+                  "endColumn": 24,
+                  "snippet": {
+                    "text": "with open('/tmp/ca.key', 'wb') as out:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 30,
+                  "endLine": 32,
+                  "snippet": {
+                    "text": "\nwith open('/tmp/ca.key', 'wb') as out:\n    out.write(pem_private)\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-cc3d6bab-c91c-459d-88ba-d575997af5fc",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/ca-create.py"
+                },
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 11,
+                  "endLine": 34,
+                  "endColumn": 24,
+                  "snippet": {
+                    "text": "with open('/tmp/ca.pub', 'wb') as out:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 33,
+                  "endLine": 35,
+                  "snippet": {
+                    "text": "\nwith open('/tmp/ca.pub', 'wb') as out:\n    out.write(pem_public)\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-d103d207-5491-4fa0-8f28-85a1e3047960",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/ca-create.py"
+                },
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 11,
+                  "endLine": 58,
+                  "endColumn": 25,
+                  "snippet": {
+                    "text": "with open('/tmp/ca.cert', 'wb') as out:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 57,
+                  "endLine": 59,
+                  "snippet": {
+                    "text": "# Write our certificate out to disk.\nwith open('/tmp/ca.cert', 'wb') as out:\n    out.write(cert.public_bytes(serialization.Encoding.PEM))\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-0ef85851-43e4-44cb-8d44-94be990e72d1",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/ca-csr-create.py"
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 11,
+                  "endLine": 12,
+                  "endColumn": 26,
+                  "snippet": {
+                    "text": "with open(\"/tmp/acme.key\", \"rb\") as key_file:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 11,
+                  "endLine": 13,
+                  "snippet": {
+                    "text": "\nwith open(\"/tmp/acme.key\", \"rb\") as key_file:\n    private_key = serialization.load_pem_private_key(\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-a03282ca-aa76-4dcb-a326-651f483a2899",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/ca-csr-create.py"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 11,
+                  "endLine": 35,
+                  "endColumn": 26,
+                  "snippet": {
+                    "text": "with open(\"/tmp/acme.csr\", \"wb\") as out:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 34,
+                  "endLine": 36,
+                  "snippet": {
+                    "text": "# Write our CSR out to disk.\nwith open(\"/tmp/acme.csr\", \"wb\") as out:\n    out.write(csr.public_bytes(serialization.Encoding.PEM))\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-dc32b020-8c32-433b-8871-25ff21df48c5",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/ca-csr-load.py"
+                },
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 11,
+                  "endLine": 13,
+                  "endColumn": 25,
+                  "snippet": {
+                    "text": "with open(\"/tmp/ca.cert\", \"rb\") as ca_cert_file:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 12,
+                  "endLine": 14,
+                  "snippet": {
+                    "text": "\nwith open(\"/tmp/ca.cert\", \"rb\") as ca_cert_file:\n    ca_cert = x509.load_pem_x509_certificate(ca_cert_file.read(), default_backend())\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-6c1f33fd-7cfb-4087-b009-da46568c1aa0",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/ca-csr-load.py"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 11,
+                  "endLine": 16,
+                  "endColumn": 26,
+                  "snippet": {
+                    "text": "with open(\"/tmp/acme.csr\", \"rb\") as csr_file:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 15,
+                  "endLine": 17,
+                  "snippet": {
+                    "text": "\nwith open(\"/tmp/acme.csr\", \"rb\") as csr_file:\n    csr = x509.load_pem_x509_csr(csr_file.read(), default_backend())\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-2a755d80-45a1-421a-85b7-c7bafd277768",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/ca-csr-load.py"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 11,
+                  "endLine": 19,
+                  "endColumn": 24,
+                  "snippet": {
+                    "text": "with open(\"/tmp/ca.key\", \"rb\") as key_file:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 18,
+                  "endLine": 20,
+                  "snippet": {
+                    "text": "\nwith open(\"/tmp/ca.key\", \"rb\") as key_file:\n    private_key = serialization.load_pem_private_key(\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-5b5b5e0d-5f9e-4cbc-8726-f5d2d2e7fd4f",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/ca-csr-load.py"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 11,
+                  "endLine": 35,
+                  "endColumn": 27,
+                  "snippet": {
+                    "text": "with open('/tmp/acme.cert', 'wb') as out:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 34,
+                  "endLine": 36,
+                  "snippet": {
+                    "text": "# Write our certificate out to disk.\nwith open('/tmp/acme.cert', 'wb') as out:\n    out.write(cert.public_bytes(serialization.Encoding.PEM))\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-b4546a80-3ec0-4727-8812-54f040ecea32",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/rsa-decrypt.py"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 11,
+                  "endLine": 14,
+                  "endColumn": 26,
+                  "snippet": {
+                    "text": "with open(\"/tmp/acme.key\", \"rb\") as key_file:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 13,
+                  "endLine": 15,
+                  "snippet": {
+                    "text": "\nwith open(\"/tmp/acme.key\", \"rb\") as key_file:\n    private_key = serialization.load_pem_private_key(\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-86cae3e9-225f-4b77-b6cf-435daa07b80c",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/rsa-encrypt.py"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 11,
+                  "endLine": 14,
+                  "endColumn": 26,
+                  "snippet": {
+                    "text": "with open(\"/tmp/acme.pub\", \"rb\") as key_file:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 13,
+                  "endLine": 15,
+                  "snippet": {
+                    "text": "\nwith open(\"/tmp/acme.pub\", \"rb\") as key_file:\n    public_key = serialization.load_pem_public_key(\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-d0e41555-d07c-42de-866b-e686e00f016b",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/rsa-keygen.py"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 11,
+                  "endLine": 26,
+                  "endColumn": 26,
+                  "snippet": {
+                    "text": "with open('/tmp/acme.key', 'wb') as out:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 25,
+                  "endLine": 27,
+                  "snippet": {
+                    "text": "\nwith open('/tmp/acme.key', 'wb') as out:\n    out.write(pem_private)\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-bc98b74c-3b2e-4ba9-a0d8-8347f502bdab",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/rsa-keygen.py"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 11,
+                  "endLine": 29,
+                  "endColumn": 26,
+                  "snippet": {
+                    "text": "with open('/tmp/acme.pub', 'wb') as out:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 28,
+                  "endLine": 30,
+                  "snippet": {
+                    "text": "\nwith open('/tmp/acme.pub', 'wb') as out:\n    out.write(pem_public)\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-5b0be14f-c66b-4dbd-bb18-38d584ba474d",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/rsa-sign.py"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 11,
+                  "endLine": 15,
+                  "endColumn": 26,
+                  "snippet": {
+                    "text": "with open(\"/tmp/acme.key\", \"rb\") as key_file:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 14,
+                  "endLine": 16,
+                  "snippet": {
+                    "text": "\nwith open(\"/tmp/acme.key\", \"rb\") as key_file:\n    private_key = serialization.load_pem_private_key(\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-16f56aea-1230-4eed-b979-9e28c8f371b1",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/rsa-verify.py"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 11,
+                  "endLine": 16,
+                  "endColumn": 26,
+                  "snippet": {
+                    "text": "with open(\"/tmp/acme.pub\", \"rb\") as key_file:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 15,
+                  "endLine": 17,
+                  "snippet": {
+                    "text": "\nwith open(\"/tmp/acme.pub\", \"rb\") as key_file:\n    public_key = serialization.load_pem_public_key(\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        }
+      ],
+      "newlineSequences": [
+        "\r\n",
+        "\n"
+      ]
+    }
+  ]
+}
