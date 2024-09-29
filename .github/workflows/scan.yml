@@ -39,8 +39,8 @@ jobs:
         run: |
           git config --global user.name 'vjelic'
           git config --global user.email 'jelicvladimir5@gmail.com'
-          git commit -am "Scan executed"
           git add .
+          git commit -am "Scan executed"
           git push
 
       - name: Upload report
