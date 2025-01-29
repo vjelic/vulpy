@@ -33,6 +33,11 @@ jobs:
       - name: Pull Glog image
         run: docker pull ghcr.io/vjelic/glog-scan-python
 
+      - name: Clean directories
+        run: |
+          [ -d $GITHUB_WORKSPACE/.glog ] && rm $GITHUB_WORKSPACE/.glog/*
+          [ -d $GITHUB_WORKSPACE/.glog-log ] && rm $GITHUB_WORKSPACE/.glog-log/*
+
       - name: Execute scan
         run: docker run --rm -e glogSERVICE=0d291a03fcbfdcea699d50685a8bb27ae3b3077f -e HOST_UID=$(id -u) -e HOST_GID=$(id -g) -e IGNORE="$ignore" -v "$GITHUB_WORKSPACE":/app -v "$(pwd)/.glog:/.glog:rw" "ghcr.io/vjelic/glog-scan-python"
         
