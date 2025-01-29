@@ -59,16 +59,19 @@ jobs:
       # - name: List .glog-log
       #   run: ls $GITHUB_WORKSPACE/.glog-log/
 
-      - name: Read Glog log file
-        run: cat /home/runner/work/vulpy/vulpy/.glog-log/glog-scan.log
+      # - name: Read Glog log file
+      #   run: cat /home/runner/work/vulpy/vulpy/.glog-log/glog-scan.log
 
-      # - name: Read file contents
-      #   id: read_file
-      #   uses: andstor/file-reader-action@v1
-      #   with:
-      #     path: /home/runner/work/vulpy/vulpy/.glog-log/glog-scan.log
+      - name: Read file contents
+        uses: guibranco/github-file-reader-action-v2@latest
+        id: read_file
+        with:
+          path: "/home/runner/work/vulpy/vulpy/.glog-log/glog-scan.log"
 
-      # - name: File contents
-      #   run: echo "${ steps.read_file.outputs.contents }"
+      - name: File contents
+        run: echo "${ steps.read_file.outputs.contents }"
+
+      - name: File size
+        run: echo "${ steps.read_file.outputs.size }"
         
           
