@@ -33,7 +33,9 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Execute scan
-        run: ls /usr/local
+        run: |
+          ls $GITHUB_WORKSPACE
+          pwd
 
       - name: Authenticate to GitHub Container Registry
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
