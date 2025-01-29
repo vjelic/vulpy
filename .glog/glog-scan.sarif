@@ -10,7 +10,305 @@
           "version": "1.0.0",
           "semanticVersion": "1.0.0",
           "informationUri": "https://www.glog.ai",
-          "rules": [],
+          "rules": [
+            {
+              "id": "glog-8dac5441-d0ae-44e6-8032-989f3739abea",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-89530ecd-e1cd-4e10-8f0c-66998d485174",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B608"
+                ]
+              }
+            },
+            {
+              "id": "glog-1596482b-514a-475f-8792-eaee08857f50",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B608"
+                ]
+              }
+            },
+            {
+              "id": "glog-c573ffc4-bbe2-4fa7-bba0-276ec8054b9d",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B201"
+                ]
+              }
+            },
+            {
+              "id": "glog-aa0a7a67-66d5-421d-8485-f59f853e13b8",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-7577f9cf-f7e3-4585-86e4-9d4318394cb9",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-ab271366-4fdd-4522-9042-378189806127",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B201"
+                ]
+              }
+            },
+            {
+              "id": "glog-4459482e-328a-4398-9905-8af134caa42a",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-eaccaba8-0f68-4459-9f14-56ec0cff7d3d",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B201"
+                ]
+              }
+            },
+            {
+              "id": "glog-a008761c-eec4-4607-91cd-8180c9a64218",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-73439cee-15da-4778-bead-58ec7c947331",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-d7d49b38-0307-499d-9fe6-148763e5ebec",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B201"
+                ]
+              }
+            },
+            {
+              "id": "glog-eb729bc7-0d67-495d-bf8d-c57f5feef0cb",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-1a673ab4-47dc-4ac4-9439-090355d9df1a",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-440e96ad-f165-49c9-89dc-b94ae2f2bf57",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-c0f15584-01ce-4e65-a216-f2124e83af80",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-1127c028-a0ac-49ed-b35c-547bff5c1d13",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-3066e49d-47c4-4be0-b61c-6eccba7907de",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-6ce40d63-46fe-43ac-8b0a-c2b06855368f",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-8162e392-8873-4fcc-b258-b530051d2f0a",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-9b739218-f66b-4810-85ee-7dc5efc6af3f",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-7dfe7f14-9056-49ad-b629-8cbd9141a439",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-a75431df-e5fa-4fd6-9683-00f843018a15",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-57eb2dbd-6fe2-46b0-b436-26b90f378393",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-4947ca28-c994-4c11-bcbf-7eda2b08afd3",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-955d6dc3-6650-43d5-8cd4-c8aa357daddb",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B108"
+                ]
+              }
+            },
+            {
+              "id": "glog-c2dc2eda-c049-4626-8012-e2ad54afe0d1",
+              "help": {
+                "text": ""
+              },
+              "properties": {
+                "tags": [
+                  "B108"
+                ]
+              }
+            }
+          ],
           "language": "en-US",
           "contents": [
             "localizedData",
@@ -20,7 +318,1007 @@
         }
       },
       "language": "en-US",
-      "results": [],
+      "results": [
+        {
+          "ruleId": "glog-8dac5441-d0ae-44e6-8032-989f3739abea",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bad/api_post.py"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 21,
+                  "endLine": 6,
+                  "endColumn": 43,
+                  "snippet": {
+                    "text": "api_key_file = Path('/tmp/supersecret.txt')\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 5,
+                  "endLine": 7,
+                  "snippet": {
+                    "text": "\napi_key_file = Path('/tmp/supersecret.txt')\n\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-89530ecd-e1cd-4e10-8f0c-66998d485174",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection vector through string-based query construction."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bad/db.py"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 19,
+                  "endLine": 19,
+                  "endColumn": 91,
+                  "snippet": {
+                    "text": "        c.execute(\"INSERT INTO users (user, password, failures) VALUES ('%s', '%s', '%d')\" %(u, p, 0))\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 18,
+                  "endLine": 20,
+                  "snippet": {
+                    "text": "    for u,p in users:\n        c.execute(\"INSERT INTO users (user, password, failures) VALUES ('%s', '%s', '%d')\" %(u, p, 0))\n\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-1596482b-514a-475f-8792-eaee08857f50",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Possible SQL injection vector through string-based query construction."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bad/db_init.py"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 19,
+                  "endLine": 20,
+                  "endColumn": 132,
+                  "snippet": {
+                    "text": "        c.execute(\"INSERT INTO users (username, password, failures, mfa_enabled, mfa_secret) VALUES ('%s', '%s', '%d', '%d', '%s')\" %(u, p, 0, 0, ''))\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 19,
+                  "endLine": 21,
+                  "snippet": {
+                    "text": "    for u,p in users:\n        c.execute(\"INSERT INTO users (username, password, failures, mfa_enabled, mfa_secret) VALUES ('%s', '%s', '%d', '%d', '%s')\" %(u, p, 0, 0, ''))\n\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-c573ffc4-bbe2-4fa7-bba0-276ec8054b9d",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bad/vulpy-ssl.py"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 1,
+                  "endLine": 29,
+                  "endColumn": 87,
+                  "snippet": {
+                    "text": "app.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 28,
+                  "endLine": 29,
+                  "snippet": {
+                    "text": "\napp.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "HIGH",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-aa0a7a67-66d5-421d-8485-f59f853e13b8",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bad/vulpy-ssl.py"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 52,
+                  "endLine": 29,
+                  "endColumn": 68,
+                  "snippet": {
+                    "text": "app.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 28,
+                  "endLine": 29,
+                  "snippet": {
+                    "text": "\napp.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-7577f9cf-f7e3-4585-86e4-9d4318394cb9",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bad/vulpy-ssl.py"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 70,
+                  "endLine": 29,
+                  "endColumn": 85,
+                  "snippet": {
+                    "text": "app.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 28,
+                  "endLine": 29,
+                  "snippet": {
+                    "text": "\napp.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-ab271366-4fdd-4522-9042-378189806127",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "bad/vulpy.py"
+                },
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 1,
+                  "endLine": 55,
+                  "endColumn": 72,
+                  "snippet": {
+                    "text": "app.run(debug=True, host='127.0.1.1', port=5000, extra_files='csp.txt')\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 54,
+                  "endLine": 55,
+                  "snippet": {
+                    "text": "\napp.run(debug=True, host='127.0.1.1', port=5000, extra_files='csp.txt')\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "HIGH",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-4459482e-328a-4398-9905-8af134caa42a",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "good/cutpasswd.py"
+                },
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 11,
+                  "endLine": 3,
+                  "endColumn": 42,
+                  "snippet": {
+                    "text": "with open('/tmp/darkweb2017-top10000.txt') as f:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 2,
+                  "endLine": 4,
+                  "snippet": {
+                    "text": "\nwith open('/tmp/darkweb2017-top10000.txt') as f:\n    for password in f.readlines():\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-eaccaba8-0f68-4459-9f14-56ec0cff7d3d",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "good/vulpy-ssl.py"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 1,
+                  "endLine": 29,
+                  "endColumn": 87,
+                  "snippet": {
+                    "text": "app.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 28,
+                  "endLine": 29,
+                  "snippet": {
+                    "text": "\napp.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "HIGH",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-a008761c-eec4-4607-91cd-8180c9a64218",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "good/vulpy-ssl.py"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 52,
+                  "endLine": 29,
+                  "endColumn": 68,
+                  "snippet": {
+                    "text": "app.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 28,
+                  "endLine": 29,
+                  "snippet": {
+                    "text": "\napp.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-73439cee-15da-4778-bead-58ec7c947331",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "good/vulpy-ssl.py"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 70,
+                  "endLine": 29,
+                  "endColumn": 85,
+                  "snippet": {
+                    "text": "app.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 28,
+                  "endLine": 29,
+                  "snippet": {
+                    "text": "\napp.run(debug=True, host='127.0.1.1', ssl_context=('/tmp/acme.cert', '/tmp/acme.key'))\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-d7d49b38-0307-499d-9fe6-148763e5ebec",
+          "kind": "fail",
+          "level": "error",
+          "message": {
+            "text": "A Flask app appears to be run with debug=True, which exposes the Werkzeug debugger and allows the execution of arbitrary code."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "good/vulpy.py"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 1,
+                  "endLine": 53,
+                  "endColumn": 72,
+                  "snippet": {
+                    "text": "app.run(debug=True, host='127.0.1.1', port=5001, extra_files='csp.txt')\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 52,
+                  "endLine": 54,
+                  "snippet": {
+                    "text": "\napp.run(debug=True, host='127.0.1.1', port=5001, extra_files='csp.txt')\n\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "HIGH",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-eb729bc7-0d67-495d-bf8d-c57f5feef0cb",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/ca-create.py"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 11,
+                  "endLine": 31,
+                  "endColumn": 24,
+                  "snippet": {
+                    "text": "with open('/tmp/ca.key', 'wb') as out:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 30,
+                  "endLine": 32,
+                  "snippet": {
+                    "text": "\nwith open('/tmp/ca.key', 'wb') as out:\n    out.write(pem_private)\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-1a673ab4-47dc-4ac4-9439-090355d9df1a",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/ca-create.py"
+                },
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 11,
+                  "endLine": 34,
+                  "endColumn": 24,
+                  "snippet": {
+                    "text": "with open('/tmp/ca.pub', 'wb') as out:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 33,
+                  "endLine": 35,
+                  "snippet": {
+                    "text": "\nwith open('/tmp/ca.pub', 'wb') as out:\n    out.write(pem_public)\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-440e96ad-f165-49c9-89dc-b94ae2f2bf57",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/ca-create.py"
+                },
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 11,
+                  "endLine": 58,
+                  "endColumn": 25,
+                  "snippet": {
+                    "text": "with open('/tmp/ca.cert', 'wb') as out:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 57,
+                  "endLine": 59,
+                  "snippet": {
+                    "text": "# Write our certificate out to disk.\nwith open('/tmp/ca.cert', 'wb') as out:\n    out.write(cert.public_bytes(serialization.Encoding.PEM))\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-c0f15584-01ce-4e65-a216-f2124e83af80",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/ca-csr-create.py"
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 11,
+                  "endLine": 12,
+                  "endColumn": 26,
+                  "snippet": {
+                    "text": "with open(\"/tmp/acme.key\", \"rb\") as key_file:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 11,
+                  "endLine": 13,
+                  "snippet": {
+                    "text": "\nwith open(\"/tmp/acme.key\", \"rb\") as key_file:\n    private_key = serialization.load_pem_private_key(\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-1127c028-a0ac-49ed-b35c-547bff5c1d13",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/ca-csr-create.py"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 11,
+                  "endLine": 35,
+                  "endColumn": 26,
+                  "snippet": {
+                    "text": "with open(\"/tmp/acme.csr\", \"wb\") as out:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 34,
+                  "endLine": 36,
+                  "snippet": {
+                    "text": "# Write our CSR out to disk.\nwith open(\"/tmp/acme.csr\", \"wb\") as out:\n    out.write(csr.public_bytes(serialization.Encoding.PEM))\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-3066e49d-47c4-4be0-b61c-6eccba7907de",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/ca-csr-load.py"
+                },
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 11,
+                  "endLine": 13,
+                  "endColumn": 25,
+                  "snippet": {
+                    "text": "with open(\"/tmp/ca.cert\", \"rb\") as ca_cert_file:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 12,
+                  "endLine": 14,
+                  "snippet": {
+                    "text": "\nwith open(\"/tmp/ca.cert\", \"rb\") as ca_cert_file:\n    ca_cert = x509.load_pem_x509_certificate(ca_cert_file.read(), default_backend())\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-6ce40d63-46fe-43ac-8b0a-c2b06855368f",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/ca-csr-load.py"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 11,
+                  "endLine": 16,
+                  "endColumn": 26,
+                  "snippet": {
+                    "text": "with open(\"/tmp/acme.csr\", \"rb\") as csr_file:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 15,
+                  "endLine": 17,
+                  "snippet": {
+                    "text": "\nwith open(\"/tmp/acme.csr\", \"rb\") as csr_file:\n    csr = x509.load_pem_x509_csr(csr_file.read(), default_backend())\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-8162e392-8873-4fcc-b258-b530051d2f0a",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/ca-csr-load.py"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 11,
+                  "endLine": 19,
+                  "endColumn": 24,
+                  "snippet": {
+                    "text": "with open(\"/tmp/ca.key\", \"rb\") as key_file:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 18,
+                  "endLine": 20,
+                  "snippet": {
+                    "text": "\nwith open(\"/tmp/ca.key\", \"rb\") as key_file:\n    private_key = serialization.load_pem_private_key(\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-9b739218-f66b-4810-85ee-7dc5efc6af3f",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/ca-csr-load.py"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 11,
+                  "endLine": 35,
+                  "endColumn": 27,
+                  "snippet": {
+                    "text": "with open('/tmp/acme.cert', 'wb') as out:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 34,
+                  "endLine": 36,
+                  "snippet": {
+                    "text": "# Write our certificate out to disk.\nwith open('/tmp/acme.cert', 'wb') as out:\n    out.write(cert.public_bytes(serialization.Encoding.PEM))\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-7dfe7f14-9056-49ad-b629-8cbd9141a439",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/rsa-decrypt.py"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 11,
+                  "endLine": 14,
+                  "endColumn": 26,
+                  "snippet": {
+                    "text": "with open(\"/tmp/acme.key\", \"rb\") as key_file:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 13,
+                  "endLine": 15,
+                  "snippet": {
+                    "text": "\nwith open(\"/tmp/acme.key\", \"rb\") as key_file:\n    private_key = serialization.load_pem_private_key(\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-a75431df-e5fa-4fd6-9683-00f843018a15",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/rsa-encrypt.py"
+                },
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 11,
+                  "endLine": 14,
+                  "endColumn": 26,
+                  "snippet": {
+                    "text": "with open(\"/tmp/acme.pub\", \"rb\") as key_file:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 13,
+                  "endLine": 15,
+                  "snippet": {
+                    "text": "\nwith open(\"/tmp/acme.pub\", \"rb\") as key_file:\n    public_key = serialization.load_pem_public_key(\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-57eb2dbd-6fe2-46b0-b436-26b90f378393",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/rsa-keygen.py"
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 11,
+                  "endLine": 26,
+                  "endColumn": 26,
+                  "snippet": {
+                    "text": "with open('/tmp/acme.key', 'wb') as out:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 25,
+                  "endLine": 27,
+                  "snippet": {
+                    "text": "\nwith open('/tmp/acme.key', 'wb') as out:\n    out.write(pem_private)\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-4947ca28-c994-4c11-bcbf-7eda2b08afd3",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/rsa-keygen.py"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 11,
+                  "endLine": 29,
+                  "endColumn": 26,
+                  "snippet": {
+                    "text": "with open('/tmp/acme.pub', 'wb') as out:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 28,
+                  "endLine": 30,
+                  "snippet": {
+                    "text": "\nwith open('/tmp/acme.pub', 'wb') as out:\n    out.write(pem_public)\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-955d6dc3-6650-43d5-8cd4-c8aa357daddb",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/rsa-sign.py"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 11,
+                  "endLine": 15,
+                  "endColumn": 26,
+                  "snippet": {
+                    "text": "with open(\"/tmp/acme.key\", \"rb\") as key_file:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 14,
+                  "endLine": 16,
+                  "snippet": {
+                    "text": "\nwith open(\"/tmp/acme.key\", \"rb\") as key_file:\n    private_key = serialization.load_pem_private_key(\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        },
+        {
+          "ruleId": "glog-c2dc2eda-c049-4626-8012-e2ad54afe0d1",
+          "kind": "fail",
+          "level": "warning",
+          "message": {
+            "text": "Probable insecure usage of temp file/directory."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "utils/rsa-verify.py"
+                },
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 11,
+                  "endLine": 16,
+                  "endColumn": 26,
+                  "snippet": {
+                    "text": "with open(\"/tmp/acme.pub\", \"rb\") as key_file:\n"
+                  }
+                },
+                "contextRegion": {
+                  "startLine": 15,
+                  "endLine": 17,
+                  "snippet": {
+                    "text": "\nwith open(\"/tmp/acme.pub\", \"rb\") as key_file:\n    public_key = serialization.load_pem_public_key(\n"
+                  }
+                }
+              }
+            }
+          ],
+          "properties": {
+            "issue_severity": "MEDIUM",
+            "issue_confidence": "MEDIUM"
+          }
+        }
+      ],
       "newlineSequences": [
         "\r\n",
         "\n"
