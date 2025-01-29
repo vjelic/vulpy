@@ -66,12 +66,12 @@ jobs:
         uses: guibranco/github-file-reader-action-v2@latest
         id: read_file
         with:
-          path: /home/runner/work/vulpy/vulpy/.glog-log/glog-scan.log
+          path: ./.glog-log/glog-scan.log
 
-      # - name: File contents
-      #   run: echo "${ steps.read_file.outputs.contents }"
+      - name: File contents
+        run: echo "${ steps.read_file.outputs.content }"
 
-      - name: File size
-        run: echo "${ steps.read_file.outputs.size }"
+      # - name: File size
+      #   run: echo "${ steps.read_file.outputs.size }"
         
           
