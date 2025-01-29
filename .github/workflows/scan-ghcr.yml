@@ -38,13 +38,13 @@ jobs:
       - name: Execute scan
         run: ls /usr/local
 
-      - name: Execute docker
-        uses: docker://ghcr.io/vjelic/glog-scan-java
-        with:
-          args: |
-            sh -c "echo 'Running inside an Alpine container'; 
-                   # Add more container commands here
-                   echo 'Finished running inside container.'"
+      # - name: Execute docker
+      #   uses: docker://ghcr.io/vjelic/glog-scan-java
+      #   with:
+      #     args: |
+      #       sh -c "echo 'Running inside an Alpine container'; 
+      #              # Add more container commands here
+      #              echo 'Finished running inside container.'"
 
 
           
