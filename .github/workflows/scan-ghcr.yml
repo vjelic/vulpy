@@ -40,6 +40,9 @@ jobs:
 
       - name: Execute docker
         run: docker pull ghcr.io/vjelic/glog-scan-java
+
+      - name: Docker images
+        run: docker images
         
 
 
