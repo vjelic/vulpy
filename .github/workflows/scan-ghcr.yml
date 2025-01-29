@@ -23,10 +23,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    
-      - name: Authenticate to GitHub Container Registry
-        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
-    
+     
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
@@ -38,13 +35,12 @@ jobs:
       - name: Execute scan
         run: ls /usr/local
 
-      # - name: Execute docker
-      #   uses: docker://ghcr.io/vjelic/glog-scan-java
-      #   with:
-      #     args: |
-      #       sh -c "echo 'Running inside an Alpine container'; 
-      #              # Add more container commands here
-      #              echo 'Finished running inside container.'"
+      - name: Authenticate to GitHub Container Registry
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
+      - name: Execute docker
+        run: docker inspect ghcr.io/vjelic/glog-scan-java
+        
 
 
           
