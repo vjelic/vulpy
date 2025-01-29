@@ -12,7 +12,7 @@
           "informationUri": "https://www.glog.ai",
           "rules": [
             {
-              "id": "glog-4da491eb-0285-49d8-8b6c-1d7f7c37ac8b",
+              "id": "glog-987d7f04-dac4-49e7-b62b-fb53a2ea4ab1",
               "help": {
                 "text": ""
               },
@@ -23,7 +23,7 @@
               }
             },
             {
-              "id": "glog-1e8b3ac1-0fa2-438a-93d0-8980502bf2ab",
+              "id": "glog-b2ffc5c8-7b14-4b48-a5a4-ce9bf582e80b",
               "help": {
                 "text": ""
               },
@@ -34,7 +34,7 @@
               }
             },
             {
-              "id": "glog-8c3ed567-8820-450c-a53c-0ad4452feb49",
+              "id": "glog-c4d19910-67d5-4eaf-bf3f-0d68ca405672",
               "help": {
                 "text": ""
               },
@@ -45,7 +45,7 @@
               }
             },
             {
-              "id": "glog-bcb0663b-a58d-4710-b688-4a2ec9673cd4",
+              "id": "glog-7abd5a8b-83ae-4525-94a8-53fb2d08f009",
               "help": {
                 "text": ""
               },
@@ -56,7 +56,7 @@
               }
             },
             {
-              "id": "glog-c379ffde-3cf0-4428-a3a3-b0f320e2c0cb",
+              "id": "glog-fe59df29-0880-4791-b71e-f651ba06468b",
               "help": {
                 "text": ""
               },
@@ -67,7 +67,7 @@
               }
             },
             {
-              "id": "glog-b32ec856-9b2e-4b97-a2c5-cb835ac961c4",
+              "id": "glog-2d3d1d7a-5fac-4588-9240-21ad33af1df8",
               "help": {
                 "text": ""
               },
@@ -78,7 +78,7 @@
               }
             },
             {
-              "id": "glog-c1ae4c3e-70c5-412f-9b9f-b4fce0bd4986",
+              "id": "glog-b050769f-8681-4c00-bf69-f2da1959b04e",
               "help": {
                 "text": ""
               },
@@ -89,7 +89,7 @@
               }
             },
             {
-              "id": "glog-b3ee8cde-439b-4bb6-87de-97e8f5855a73",
+              "id": "glog-8217b062-007f-4285-9c1a-319c75939f46",
               "help": {
                 "text": ""
               },
@@ -100,7 +100,7 @@
               }
             },
             {
-              "id": "glog-0b0ccbd0-a011-4fa2-bde5-67b4053ef84b",
+              "id": "glog-94dbe272-ec0e-4156-9753-93bdd9094536",
               "help": {
                 "text": ""
               },
@@ -111,7 +111,7 @@
               }
             },
             {
-              "id": "glog-6f5ee726-1e92-4e47-afa3-a40106cf6e32",
+              "id": "glog-5ae15363-1d81-4edf-be6d-74908a71cd10",
               "help": {
                 "text": ""
               },
@@ -122,7 +122,7 @@
               }
             },
             {
-              "id": "glog-8a3ab232-70c0-4ae7-a77e-01f44679a31a",
+              "id": "glog-57d021ed-f649-4af0-a4e1-bd8f934be441",
               "help": {
                 "text": ""
               },
@@ -133,7 +133,7 @@
               }
             },
             {
-              "id": "glog-0552b4aa-cdbd-48e4-ba92-fa6b02a59952",
+              "id": "glog-39706ed4-b226-4362-9bf5-491b23643208",
               "help": {
                 "text": ""
               },
@@ -144,7 +144,7 @@
               }
             },
             {
-              "id": "glog-649b6c12-a4ed-4fae-8169-f5176639cff7",
+              "id": "glog-526fc035-e68e-40c4-8416-da2f68b33e25",
               "help": {
                 "text": ""
               },
@@ -155,7 +155,7 @@
               }
             },
             {
-              "id": "glog-f9143466-be41-43f7-8470-4ac79a19a5cd",
+              "id": "glog-27d1ee9c-d371-41d0-99e0-f7d83cf612b8",
               "help": {
                 "text": ""
               },
@@ -166,7 +166,7 @@
               }
             },
             {
-              "id": "glog-8fd618a1-cc01-4b1a-a974-33ef6b5e1bae",
+              "id": "glog-cb7b58a3-6ac9-4ec1-9a8f-6d2ac1eafdf8",
               "help": {
                 "text": ""
               },
@@ -177,7 +177,7 @@
               }
             },
             {
-              "id": "glog-507d9193-b2bf-4525-98de-e5d8c6e8a2c7",
+              "id": "glog-5d2ce8bf-1c9d-4ce4-b000-08d99b4cd222",
               "help": {
                 "text": ""
               },
@@ -188,7 +188,7 @@
               }
             },
             {
-              "id": "glog-d245cd06-70a5-456c-9b40-e9086553125a",
+              "id": "glog-411ebe08-2575-4886-96fb-fd0b4a8823ec",
               "help": {
                 "text": ""
               },
@@ -199,7 +199,7 @@
               }
             },
             {
-              "id": "glog-ed77c007-67b1-410c-888b-f73dc0806484",
+              "id": "glog-07a2292b-2405-411b-8d0e-ac7cae00a89a",
               "help": {
                 "text": ""
               },
@@ -210,7 +210,7 @@
               }
             },
             {
-              "id": "glog-e13b6778-a535-47d3-9d02-b8f94e465462",
+              "id": "glog-b63b15ab-fc20-4c85-8c72-be3e2b933b7c",
               "help": {
                 "text": ""
               },
@@ -221,7 +221,7 @@
               }
             },
             {
-              "id": "glog-b9a1e75c-69e0-4b1c-a409-ff54f211ff47",
+              "id": "glog-1d93dc39-8be9-4078-a1d3-7ec55c3a84d1",
               "help": {
                 "text": ""
               },
@@ -232,7 +232,7 @@
               }
             },
             {
-              "id": "glog-48de6d9b-b570-43e4-8c11-c44abecd4270",
+              "id": "glog-c6e861bc-bc6b-44f5-822b-765eca7b4d26",
               "help": {
                 "text": ""
               },
@@ -243,7 +243,7 @@
               }
             },
             {
-              "id": "glog-4a78a506-8b46-4281-834c-39bf743eff01",
+              "id": "glog-0aa8804a-8242-4e81-ab7c-fcb97b2100f8",
               "help": {
                 "text": ""
               },
@@ -254,7 +254,7 @@
               }
             },
             {
-              "id": "glog-929e442e-3cb4-4a1b-99ac-54201736efc3",
+              "id": "glog-091608da-c689-4833-aaff-33c12c6f608d",
               "help": {
                 "text": ""
               },
@@ -265,7 +265,7 @@
               }
             },
             {
-              "id": "glog-5ef208ce-2cb7-4b2a-9c99-ca3b51830fb8",
+              "id": "glog-b83b49bf-2902-477f-b187-e01266861c54",
               "help": {
                 "text": ""
               },
@@ -276,7 +276,7 @@
               }
             },
             {
-              "id": "glog-3eed3bd5-2517-41fe-bdb7-d66b55dfc913",
+              "id": "glog-7fa37513-3fe5-44b9-92a3-b78f7f36c0ca",
               "help": {
                 "text": ""
               },
@@ -287,7 +287,7 @@
               }
             },
             {
-              "id": "glog-a4cdb072-d456-43c8-aa9d-37dc6f16f643",
+              "id": "glog-deb0b3ae-85d1-4e01-9367-d8db0f0f6d45",
               "help": {
                 "text": ""
               },
@@ -298,7 +298,7 @@
               }
             },
             {
-              "id": "glog-94a6b9d7-7d2b-494f-9428-f176bfff88d7",
+              "id": "glog-b5e1a6bb-e270-4567-9175-b60f89bfab9c",
               "help": {
                 "text": ""
               },
@@ -320,7 +320,7 @@
       "language": "en-US",
       "results": [
         {
-          "ruleId": "glog-4da491eb-0285-49d8-8b6c-1d7f7c37ac8b",
+          "ruleId": "glog-987d7f04-dac4-49e7-b62b-fb53a2ea4ab1",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -357,7 +357,7 @@
           }
         },
         {
-          "ruleId": "glog-1e8b3ac1-0fa2-438a-93d0-8980502bf2ab",
+          "ruleId": "glog-b2ffc5c8-7b14-4b48-a5a4-ce9bf582e80b",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -394,7 +394,7 @@
           }
         },
         {
-          "ruleId": "glog-8c3ed567-8820-450c-a53c-0ad4452feb49",
+          "ruleId": "glog-c4d19910-67d5-4eaf-bf3f-0d68ca405672",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -431,7 +431,7 @@
           }
         },
         {
-          "ruleId": "glog-bcb0663b-a58d-4710-b688-4a2ec9673cd4",
+          "ruleId": "glog-7abd5a8b-83ae-4525-94a8-53fb2d08f009",
           "kind": "fail",
           "level": "error",
           "message": {
@@ -468,7 +468,7 @@
           }
         },
         {
-          "ruleId": "glog-c379ffde-3cf0-4428-a3a3-b0f320e2c0cb",
+          "ruleId": "glog-fe59df29-0880-4791-b71e-f651ba06468b",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -505,7 +505,7 @@
           }
         },
         {
-          "ruleId": "glog-b32ec856-9b2e-4b97-a2c5-cb835ac961c4",
+          "ruleId": "glog-2d3d1d7a-5fac-4588-9240-21ad33af1df8",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -542,7 +542,7 @@
           }
         },
         {
-          "ruleId": "glog-c1ae4c3e-70c5-412f-9b9f-b4fce0bd4986",
+          "ruleId": "glog-b050769f-8681-4c00-bf69-f2da1959b04e",
           "kind": "fail",
           "level": "error",
           "message": {
@@ -579,7 +579,7 @@
           }
         },
         {
-          "ruleId": "glog-b3ee8cde-439b-4bb6-87de-97e8f5855a73",
+          "ruleId": "glog-8217b062-007f-4285-9c1a-319c75939f46",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -616,7 +616,7 @@
           }
         },
         {
-          "ruleId": "glog-0b0ccbd0-a011-4fa2-bde5-67b4053ef84b",
+          "ruleId": "glog-94dbe272-ec0e-4156-9753-93bdd9094536",
           "kind": "fail",
           "level": "error",
           "message": {
@@ -653,7 +653,7 @@
           }
         },
         {
-          "ruleId": "glog-6f5ee726-1e92-4e47-afa3-a40106cf6e32",
+          "ruleId": "glog-5ae15363-1d81-4edf-be6d-74908a71cd10",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -690,7 +690,7 @@
           }
         },
         {
-          "ruleId": "glog-8a3ab232-70c0-4ae7-a77e-01f44679a31a",
+          "ruleId": "glog-57d021ed-f649-4af0-a4e1-bd8f934be441",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -727,7 +727,7 @@
           }
         },
         {
-          "ruleId": "glog-0552b4aa-cdbd-48e4-ba92-fa6b02a59952",
+          "ruleId": "glog-39706ed4-b226-4362-9bf5-491b23643208",
           "kind": "fail",
           "level": "error",
           "message": {
@@ -764,7 +764,7 @@
           }
         },
         {
-          "ruleId": "glog-649b6c12-a4ed-4fae-8169-f5176639cff7",
+          "ruleId": "glog-526fc035-e68e-40c4-8416-da2f68b33e25",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -801,7 +801,7 @@
           }
         },
         {
-          "ruleId": "glog-f9143466-be41-43f7-8470-4ac79a19a5cd",
+          "ruleId": "glog-27d1ee9c-d371-41d0-99e0-f7d83cf612b8",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -838,7 +838,7 @@
           }
         },
         {
-          "ruleId": "glog-8fd618a1-cc01-4b1a-a974-33ef6b5e1bae",
+          "ruleId": "glog-cb7b58a3-6ac9-4ec1-9a8f-6d2ac1eafdf8",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -875,7 +875,7 @@
           }
         },
         {
-          "ruleId": "glog-507d9193-b2bf-4525-98de-e5d8c6e8a2c7",
+          "ruleId": "glog-5d2ce8bf-1c9d-4ce4-b000-08d99b4cd222",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -912,7 +912,7 @@
           }
         },
         {
-          "ruleId": "glog-d245cd06-70a5-456c-9b40-e9086553125a",
+          "ruleId": "glog-411ebe08-2575-4886-96fb-fd0b4a8823ec",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -949,7 +949,7 @@
           }
         },
         {
-          "ruleId": "glog-ed77c007-67b1-410c-888b-f73dc0806484",
+          "ruleId": "glog-07a2292b-2405-411b-8d0e-ac7cae00a89a",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -986,7 +986,7 @@
           }
         },
         {
-          "ruleId": "glog-e13b6778-a535-47d3-9d02-b8f94e465462",
+          "ruleId": "glog-b63b15ab-fc20-4c85-8c72-be3e2b933b7c",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1023,7 +1023,7 @@
           }
         },
         {
-          "ruleId": "glog-b9a1e75c-69e0-4b1c-a409-ff54f211ff47",
+          "ruleId": "glog-1d93dc39-8be9-4078-a1d3-7ec55c3a84d1",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1060,7 +1060,7 @@
           }
         },
         {
-          "ruleId": "glog-48de6d9b-b570-43e4-8c11-c44abecd4270",
+          "ruleId": "glog-c6e861bc-bc6b-44f5-822b-765eca7b4d26",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1097,7 +1097,7 @@
           }
         },
         {
-          "ruleId": "glog-4a78a506-8b46-4281-834c-39bf743eff01",
+          "ruleId": "glog-0aa8804a-8242-4e81-ab7c-fcb97b2100f8",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1134,7 +1134,7 @@
           }
         },
         {
-          "ruleId": "glog-929e442e-3cb4-4a1b-99ac-54201736efc3",
+          "ruleId": "glog-091608da-c689-4833-aaff-33c12c6f608d",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1171,7 +1171,7 @@
           }
         },
         {
-          "ruleId": "glog-5ef208ce-2cb7-4b2a-9c99-ca3b51830fb8",
+          "ruleId": "glog-b83b49bf-2902-477f-b187-e01266861c54",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1208,7 +1208,7 @@
           }
         },
         {
-          "ruleId": "glog-3eed3bd5-2517-41fe-bdb7-d66b55dfc913",
+          "ruleId": "glog-7fa37513-3fe5-44b9-92a3-b78f7f36c0ca",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1245,7 +1245,7 @@
           }
         },
         {
-          "ruleId": "glog-a4cdb072-d456-43c8-aa9d-37dc6f16f643",
+          "ruleId": "glog-deb0b3ae-85d1-4e01-9367-d8db0f0f6d45",
           "kind": "fail",
           "level": "warning",
           "message": {
@@ -1282,7 +1282,7 @@
           }
         },
         {
-          "ruleId": "glog-94a6b9d7-7d2b-494f-9428-f176bfff88d7",
+          "ruleId": "glog-b5e1a6bb-e270-4567-9175-b60f89bfab9c",
           "kind": "fail",
           "level": "warning",
           "message": {
