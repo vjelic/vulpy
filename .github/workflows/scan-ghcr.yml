@@ -19,7 +19,7 @@ jobs:
   glog-scan-ghcr:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    # container: ghcr.io/vjelic/glog-scan-java
+    # container: ghcr.io/vjelic/glog-scan-python
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -27,24 +27,14 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
-      # Runs a single command using the runners shell
-      # - name: Run a one-line script
-      #   run: echo Hello, Learning Github Actions!!
-
-      # Runs a set of commands using the runners shell
-      - name: Execute scan
-        run: |
-          ls $GITHUB_WORKSPACE
-          pwd
-
       - name: Authenticate to GitHub Container Registry
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
-      - name: Execute docker
-        run: docker pull ghcr.io/vjelic/glog-scan-java
+      - name: Pull Glog image
+        run: docker pull ghcr.io/vjelic/glog-scan-python
 
-      - name: Docker images
-        run: docker images
+      - name: Execute scan
+        run: docker run --rm -e glogSERVICE=0d291a03fcbfdcea699d50685a8bb27ae3b3077f -e HOST_UID=$(id -u) -e HOST_GID=$(id -g) -e IGNORE="$ignore" -v "$GITHUB_WORKSPACE":/app -v "$(pwd)/.glog:/.glog:rw" "ghcr.io/vjelic/glog-scan-python"
         
 
 
