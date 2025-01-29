@@ -60,6 +60,6 @@ jobs:
       #   run: ls $GITHUB_WORKSPACE/.glog-log/
 
       - name: Read Glog log file
-        run: echo "cat $GITHUB_WORKSPACE/.glog-log/glog-scan.log"
+        run: echo cat $GITHUB_WORKSPACE/.glog-log/glog-scan.log
 
           
