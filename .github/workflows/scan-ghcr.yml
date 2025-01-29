@@ -69,7 +69,7 @@ jobs:
           path: ./.glog-log/glog-scan.log
 
       - name: File contents
-        run: echo "${ steps.read_file.outputs.content }"
+        run: echo ${ steps.read_file.outputs.content }
 
       # - name: File size
       #   run: echo "${ steps.read_file.outputs.size }"
