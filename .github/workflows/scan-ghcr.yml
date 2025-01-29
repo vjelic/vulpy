@@ -62,17 +62,17 @@ jobs:
       # - name: Read Glog log file
       #   run: cat /home/runner/work/vulpy/vulpy/.glog-log/glog-scan.log
 
-      - name: Read from file
-        id: read-file-bash
-        shell: bash
-        run: |
-            content=`cat /home/runner/work/vulpy/vulpy/.glog-log/glog-scan.log`
-            echo outputContent=$content >> $GITHUB_OUTPUT
+      # - name: Read from file
+      #   id: read-file-bash
+      #   shell: bash
+      #   run: |
+      #       content=`cat /home/runner/work/vulpy/vulpy/.glog-log/glog-scan.log`
+      #       echo outputContent=$content >> $GITHUB_OUTPUT
             
-      - name: Print from file to console
-        id: write-content
-        shell: bash
-        run: |
-            echo "Bash version: ${{ steps.read-file-bash.outputs.outputContent }}"
+      # - name: Print from file to console
+      #   id: write-content
+      #   shell: bash
+      #   run: |
+      #       echo "Bash version: ${{ steps.read-file-bash.outputs.outputContent }}"
         
           
