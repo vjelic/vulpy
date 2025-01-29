@@ -56,8 +56,8 @@ jobs:
           sarif_file: .glog/glog-scan.sarif
           category: my-analysis-tool
 
-      # - name: List .glog-log
-      #   run: ls $GITHUB_WORKSPACE/.glog-log/
+      - name: List .glog-log
+        run: ls $GITHUB_WORKSPACE/.glog-log/
 
       # - name: Read Glog log file
       #   run: cat $GITHUB_WORKSPACE/.glog-log/glog-scan.log
