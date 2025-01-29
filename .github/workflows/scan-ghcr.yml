@@ -34,6 +34,13 @@ jobs:
       - name: Execute scan
         run: ls /usr/local
 
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Execute docker
         uses: docker://ghcr.io/vjelic/glog-scan-java
         with:
