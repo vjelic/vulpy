@@ -39,7 +39,7 @@ jobs:
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
       - name: Execute docker
-        run: docker inspect ghcr.io/vjelic/glog-scan-java
+        run: docker pull ghcr.io/vjelic/glog-scan-java
         
 
 
