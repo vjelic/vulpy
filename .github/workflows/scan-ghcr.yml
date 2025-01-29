@@ -68,8 +68,8 @@ jobs:
         with:
           path: "/home/runner/work/vulpy/vulpy/.glog-log/glog-scan.log"
 
-      - name: File contents
-        run: echo "${ steps.read_file.outputs.contents }"
+      # - name: File contents
+      #   run: echo "${ steps.read_file.outputs.contents }"
 
       - name: File size
         run: echo "${ steps.read_file.outputs.size }"
