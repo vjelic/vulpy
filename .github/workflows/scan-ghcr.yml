@@ -43,8 +43,8 @@ jobs:
         
       - name: Commit reports
         run: |
-          git config --global user.name 'vjelic'
-          git config --global user.email 'jelicvladimir5@gmail.com'
+          git config --global user.name ${{ github.actor }}
+          git config --global user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
           rm -f $GITHUB_WORKSPACE/.glog/glog-scan-python*.sarif
           git add .
           git commit -am "Scan executed"
@@ -55,24 +55,5 @@ jobs:
         with:
           sarif_file: .glog/glog-scan.sarif
           category: my-analysis-tool
-
-      # - name: List .glog-log
-      #   run: ls $GITHUB_WORKSPACE/.glog-log/
-
-      # - name: Read Glog log file
-      #   run: cat /home/runner/work/vulpy/vulpy/.glog-log/glog-scan.log
-
-      # - name: Read from file
-      #   id: read-file-bash
-      #   shell: bash
-      #   run: |
-      #       content=`cat /home/runner/work/vulpy/vulpy/.glog-log/glog-scan.log`
-      #       echo outputContent=$content >> $GITHUB_OUTPUT
-            
-      # - name: Print from file to console
-      #   id: write-content
-      #   shell: bash
-      #   run: |
-      #       echo "Bash version: ${{ steps.read-file-bash.outputs.outputContent }}"
         
           
