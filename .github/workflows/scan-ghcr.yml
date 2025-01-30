@@ -36,6 +36,9 @@ jobs:
       - name: Clean directories
         run: |
           [ -d $GITHUB_WORKSPACE/.glog ] && rm $GITHUB_WORKSPACE/.glog/*
+
+      - name: Clean directories
+        run: |
           [ -d $GITHUB_WORKSPACE/.glog-log ] && echo "BBBB"
 
       - name: Execute scan
