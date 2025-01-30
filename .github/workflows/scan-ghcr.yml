@@ -34,8 +34,8 @@ jobs:
         run: docker pull ghcr.io/vjelic/glog-scan-python
 
       - name: Clean directories
-        shell: sh
         run: |
+          set +e
           [ -d $GITHUB_WORKSPACE/.glog ] && rm $GITHUB_WORKSPACE/.glog/*
           [ -d $GITHUB_WORKSPACE/.glog-log ] && rm $GITHUB_WORKSPACE/.glog-log/*
 
