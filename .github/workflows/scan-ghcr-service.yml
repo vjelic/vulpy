@@ -21,6 +21,13 @@ jobs:
     runs-on: ubuntu-latest
     # container: ghcr.io/vjelic/glog-scan-python
 
+    services:
+      glog-scan-python:
+        image:  ghcr.io/vjelic/glog-scan-python
+        credentials:
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
      
