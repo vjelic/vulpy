@@ -30,8 +30,13 @@ jobs:
         volumes:
           - ${{ github.workspace }}:/app
           - ${{ github.workspace }}/.glog:/.glog:rw
-        options: >-
-          --entrypoint "/bin/bash -c 'uname'"
+        env:
+          GLOGSERVICE: ${{ secrets.GLOG_TOKEN }}
+          HOST_UID: $(id -u)
+          HOST_GID: $(id -g)
+          IGNORE: "$ignore"
+        # options: >-
+        #   --entrypoint "/bin/bash -c 'uname'"
           
 
     # Steps represent a sequence of tasks that will be executed as part of the job
