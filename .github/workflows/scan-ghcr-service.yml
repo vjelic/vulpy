@@ -27,6 +27,10 @@ jobs:
         credentials:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
+        volumes:
+          - $GITHUB_WORKSPACE/.glog:/.glog:rw
+          - $GITHUB_WORKSPACE/.glog-log:/.glog-log:rw
+          - $GITHUB_WORKSPACE/.glog-log:/.glog-log:rw
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
