@@ -38,8 +38,8 @@ jobs:
           # options: >- 
           #   --name glog-scan-python-container-service 
           #   --hostname glog-scan-python-container-service
-        options: >-
-          --entrypoint=/bin/bash
+        # options: >-
+        #   --entrypoint=/bin/bash
           
 
     # Steps represent a sequence of tasks that will be executed as part of the job
