@@ -22,7 +22,7 @@ jobs:
     # container: ghcr.io/vjelic/glog-scan-python
 
     services:
-      glog-scan-python-container_service:
+      glog-scan-python-container-service:
         image:  ghcr.io/vjelic/glog-scan-python
         credentials:
           username: ${{ github.actor }}
@@ -35,9 +35,9 @@ jobs:
           HOST_UID: $(id -u)
           HOST_GID: $(id -g)
           IGNORE: "$ignore"
-          options: >-
-            --name glog-scan-python-container_service 
-            --hostname glog-scan-python-container_service
+          options: >- 
+            --name glog-scan-python-container-service 
+            --hostname glog-scan-python-container-service
         # options: >-
         #   --entrypoint "/bin/bash -c 'uname'"
           
@@ -48,7 +48,7 @@ jobs:
       - name: List Files in Mapped Directory from Container
         run: |
           docker container ls
-          docker exec glog-scan-python-container_service ls -alh /app
+          docker exec glog-scan-python-container-service ls -alh /app
      
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
