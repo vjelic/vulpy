@@ -35,6 +35,9 @@ jobs:
           HOST_UID: $(id -u)
           HOST_GID: $(id -g)
           IGNORE: "$ignore"
+          options: >-
+            --name glog-scan-python-container_service 
+            --hostname glog-scan-python-container_service
         # options: >-
         #   --entrypoint "/bin/bash -c 'uname'"
           
