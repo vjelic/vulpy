@@ -35,11 +35,11 @@ jobs:
           HOST_UID: $(id -u)
           HOST_GID: $(id -g)
           IGNORE: "$ignore"
-          options: >- 
-            --name glog-scan-python-container-service 
-            --hostname glog-scan-python-container-service
-        # options: >-
-        #   --entrypoint "/bin/bash -c 'uname'"
+          # options: >- 
+          #   --name glog-scan-python-container-service 
+          #   --hostname glog-scan-python-container-service
+        options: >-
+          --entrypoint ''
           
 
     # Steps represent a sequence of tasks that will be executed as part of the job
