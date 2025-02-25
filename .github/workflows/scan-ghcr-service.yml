@@ -30,10 +30,16 @@ jobs:
         volumes:
           - ${{ github.workspace }}:/app
           - ${{ github.workspace }}/.glog:/.glog:rw
+        options: >-
+          --entrypoint ""
           
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+
+      - name: List Files in Mapped Directory from Container
+        run: |
+          docker exec glog-scan-python ls -alh /app
      
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
