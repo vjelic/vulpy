@@ -48,7 +48,9 @@ jobs:
       - name: List Files in Mapped Directory from Container
         run: |
           docker container ls
-          docker exec $(docker ps -qf "name=glog-scan-python-container-service") ls -alh /app
+          CONTAINER_ID=$(docker ps --filter "ancestor=ghcr.io/vjelic/glog-scan-python" --format "{{.ID}}")
+          docker exec $CONTAINER_ID echo "Hello from inside the container"
+          docker exec $CONTAINER_ID ls -alh /app
      
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
