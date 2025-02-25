@@ -31,7 +31,7 @@ jobs:
           - ${{ github.workspace }}:/app
           - ${{ github.workspace }}/.glog:/.glog:rw
         options: >-
-          --entrypoint "/bin/sh -c 'ls /app'"
+          --entrypoint "/bin/sh -c 'uname'"
           
 
     # Steps represent a sequence of tasks that will be executed as part of the job
