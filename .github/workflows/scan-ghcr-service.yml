@@ -28,8 +28,8 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
         volumes:
-          - $GITHUB_WORKSPACE:/app
-          - $GITHUB_WORKSPACE/.glog:/.glog:rw
+          - ${{ github.workspace }}:/app
+          - ${{ github.workspace }}/.glog:/.glog:rw
           
 
     # Steps represent a sequence of tasks that will be executed as part of the job
