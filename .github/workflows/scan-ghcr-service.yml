@@ -28,7 +28,7 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
         volumes:
-          - "$GITHUB_WORKSPACE/.glog:/app"
+          - "$GITHUB_WORKSPACE:/app"
           - "$GITHUB_WORKSPACE/.glog:/.glog:rw"
           
 
