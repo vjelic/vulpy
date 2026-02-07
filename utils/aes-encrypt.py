@@ -18,7 +18,10 @@ def aes_encrypt(key, message):
 
     #key = sys.argv[1].encode()
     #plain = sys.argv[2].encode()
-    nonce = os.urandom(12)  # GCM standard nonce size is 96 bits (12 bytes)
+    # GCM standard nonce size is 96 bits (12 bytes)
+    # Using random nonce is secure as long as key is not reused excessively
+    # For high-volume encryption, consider implementing nonce tracking or key rotation
+    nonce = os.urandom(12)
 
     digest = hashes.Hash(hashes.SHA256(), backend=default_backend())
     digest.update(key.encode())
