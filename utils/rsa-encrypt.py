@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
+import os
 
 from binascii import hexlify
 
@@ -11,7 +12,11 @@ from cryptography.hazmat.primitives.asymmetric import padding
 
 msg = sys.argv[1].encode()
 
-with open("/tmp/acme.pub", "rb") as key_file:
+# Use command-line argument if provided, else environment variable, else default
+# Default to /tmp/acme.pub for backward compatibility (not secure)
+key_file_path = sys.argv[2] if len(sys.argv) > 2 else os.environ.get('RSA_PUBLIC_KEY_PATH', '/tmp/acme.pub')
+
+with open(key_file_path, "rb") as key_file:
     public_key = serialization.load_pem_public_key(
         key_file.read(),
         backend=default_backend()
