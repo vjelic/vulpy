@@ -14,9 +14,9 @@ from cryptography.exceptions import InvalidSignature
 msg = sys.argv[1].encode()
 signature = unhexlify(sys.argv[2])
 
-# Use environment variable or command-line argument for key file path
+# Use command-line argument if provided, else environment variable, else default
 # Default to /tmp/acme.pub for backward compatibility (not secure)
-key_file_path = os.environ.get('RSA_PUBLIC_KEY_PATH', sys.argv[3] if len(sys.argv) > 3 else '/tmp/acme.pub')
+key_file_path = sys.argv[3] if len(sys.argv) > 3 else os.environ.get('RSA_PUBLIC_KEY_PATH', '/tmp/acme.pub')
 
 with open(key_file_path, "rb") as key_file:
     public_key = serialization.load_pem_public_key(

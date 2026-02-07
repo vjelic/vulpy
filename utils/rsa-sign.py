@@ -13,9 +13,9 @@ from cryptography.hazmat.primitives.asymmetric import utils
 
 msg = sys.argv[1].encode()
 
-# Use environment variable or command-line argument for key file path
+# Use command-line argument if provided, else environment variable, else default
 # Default to /tmp/acme.key for backward compatibility (not secure)
-key_file_path = os.environ.get('RSA_PRIVATE_KEY_PATH', sys.argv[2] if len(sys.argv) > 2 else '/tmp/acme.key')
+key_file_path = sys.argv[2] if len(sys.argv) > 2 else os.environ.get('RSA_PRIVATE_KEY_PATH', '/tmp/acme.key')
 
 with open(key_file_path, "rb") as key_file:
     private_key = serialization.load_pem_private_key(
