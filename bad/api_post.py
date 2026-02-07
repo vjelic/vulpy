@@ -1,9 +1,15 @@
 from pathlib import Path
+import tempfile
+import os
 
 import click
 import requests
 
-api_key_file = Path('/tmp/supersecret.txt')
+# Use secure temporary file with restricted permissions (readable/writable only by owner)
+# This prevents other users on the system from accessing the API key
+_fd, _temp_path = tempfile.mkstemp(prefix='api_key_', suffix='.txt')
+os.close(_fd)  # Close the file descriptor, we'll use Path for file operations
+api_key_file = Path(_temp_path)
 
 @click.command()
 @click.argument('message')
