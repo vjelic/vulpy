@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+import tempfile
+import os
+
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives.asymmetric import rsa
 from cryptography.hazmat.primitives import serialization
@@ -23,11 +26,18 @@ pem_public = public_key.public_bytes(
     format=serialization.PublicFormat.SubjectPublicKeyInfo
 )
 
-with open('/tmp/acme.key', 'wb') as out:
+# Create a secure temporary directory with unpredictable name
+temp_dir = tempfile.mkdtemp()
+key_path = os.path.join(temp_dir, 'acme.key')
+pub_path = os.path.join(temp_dir, 'acme.pub')
+
+with open(key_path, 'wb') as out:
     out.write(pem_private)
 
-with open('/tmp/acme.pub', 'wb') as out:
+with open(pub_path, 'wb') as out:
     out.write(pem_public)
 
-print('Created files in /tmp/acme.key and /tmp/acme.pub')
+print(f'Created files in {key_path} and {pub_path}')
+print(f'Note: Files will persist until you manually delete them or the system cleans /tmp/')
+
 
