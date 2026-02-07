@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import os
 from pathlib import Path
 
 from flask import Flask, g, redirect, request
@@ -14,7 +15,10 @@ from mod_api import mod_api
 import libsession
 
 app = Flask('vulpy')
-app.config['SECRET_KEY'] = '123aa8a93bdde342c871564a62282af857bda14b3359fde95d0c5e4b321610c1'
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY')
+
+if not app.config['SECRET_KEY']:
+    raise ValueError('SECRET_KEY environment variable must be set')
 
 app.register_blueprint(mod_hello, url_prefix='/hello')
 app.register_blueprint(mod_user, url_prefix='/user')
