@@ -22,8 +22,7 @@ csr_file_path = sys.argv[2] if len(sys.argv) > 2 else None
 
 # If no output path specified, use same directory as key file
 if csr_file_path is None:
-    output_dir = os.path.dirname(key_file_path)
-    output_dir = output_dir if output_dir else "."
+    output_dir = os.path.dirname(key_file_path) or "."
     csr_file_path = os.path.join(output_dir, "acme.csr")
 
 try:
