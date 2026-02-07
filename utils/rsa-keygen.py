@@ -26,27 +26,15 @@ pem_public = public_key.public_bytes(
 )
 
 # Securely create private key file with restricted permissions (owner read/write only)
-# Use O_CREAT | O_EXCL to prevent race conditions
+# Use O_CREAT | O_TRUNC to overwrite if exists, with secure permissions set atomically
 private_key_path = '/tmp/acme.key'
-try:
-    fd_private = os.open(private_key_path, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o600)
-except FileExistsError:
-    # File exists, remove it and try again with secure permissions
-    os.remove(private_key_path)
-    fd_private = os.open(private_key_path, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o600)
-
+fd_private = os.open(private_key_path, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o600)
 with os.fdopen(fd_private, 'wb') as out:
     out.write(pem_private)
 
 # Securely create public key file with appropriate permissions (owner read/write, others read)
 public_key_path = '/tmp/acme.pub'
-try:
-    fd_public = os.open(public_key_path, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o644)
-except FileExistsError:
-    # File exists, remove it and try again with secure permissions
-    os.remove(public_key_path)
-    fd_public = os.open(public_key_path, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o644)
-
+fd_public = os.open(public_key_path, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o644)
 with os.fdopen(fd_public, 'wb') as out:
     out.write(pem_public)
 
