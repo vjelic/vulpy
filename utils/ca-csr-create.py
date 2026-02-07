@@ -34,8 +34,8 @@ csr = csr.sign(private_key, hashes.SHA256(), default_backend())
 
 # Write our CSR out to disk.
 with tempfile.NamedTemporaryFile(mode='wb', suffix='.csr', prefix='acme-', delete=False, dir='/tmp') as out:
-    out.write(csr.public_bytes(serialization.Encoding.PEM))
     csr_path = out.name
+    out.write(csr.public_bytes(serialization.Encoding.PEM))
 
 print(f'Created {csr_path}')
 

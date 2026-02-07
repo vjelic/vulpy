@@ -70,8 +70,8 @@ def test_csr_uses_secure_temp_file():
         os.unlink(csr_path)
         os.unlink('/tmp/acme.key')
         os.unlink('/tmp/acme.pub')
-    except Exception:
-        pass
+    except (FileNotFoundError, OSError):
+        pass  # Files may not exist or cleanup may fail, which is acceptable for tests
     
     print("✓ Test passed: CSR creation uses secure temporary files")
 
