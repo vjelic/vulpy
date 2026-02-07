@@ -38,4 +38,6 @@ with open(pub_path, 'wb') as out:
     out.write(pem_public)
 
 print(f'Created files in {key_path} and {pub_path}')
+print(f'Note: Files will persist until you manually delete them or the system cleans /tmp/')
+
 
