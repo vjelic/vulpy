@@ -30,6 +30,12 @@ except FileNotFoundError:
     print(f"Error: Key file not found at '{key_file_path}'")
     print("Generate a key first with rsa-keygen.py or specify a valid key file path.")
     sys.exit(1)
+except PermissionError:
+    print(f"Error: Permission denied accessing key file '{key_file_path}'")
+    sys.exit(1)
+except ValueError as e:
+    print(f"Error: Invalid key format in '{key_file_path}': {e}")
+    sys.exit(1)
 except Exception as e:
     print(f"Error reading key file '{key_file_path}': {e}")
     sys.exit(1)
