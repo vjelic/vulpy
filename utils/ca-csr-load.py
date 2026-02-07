@@ -14,23 +14,37 @@ from cryptography.hazmat.primitives import hashes
 
 # Accept file paths as command-line arguments for security
 # Usage: ca-csr-load.py [ca_cert_path] [csr_path] [ca_key_path] [output_cert_path]
-# Defaults to /tmp for backward compatibility
-ca_cert_path = sys.argv[1] if len(sys.argv) > 1 else "/tmp/ca.cert"
-csr_path = sys.argv[2] if len(sys.argv) > 2 else "/tmp/acme.csr"
-ca_key_path = sys.argv[3] if len(sys.argv) > 3 else "/tmp/ca.key"
-output_cert_path = sys.argv[4] if len(sys.argv) > 4 else "/tmp/acme.cert"
+# 
+# All arguments are optional and positional. Either provide all 4 arguments or none.
+# When no arguments are provided, defaults to /tmp paths for backward compatibility.
+# 
+# Security: Using custom paths in a secure directory with proper permissions is
+# recommended over the default /tmp paths to prevent symlink attacks and race conditions.
+#
+# Example with custom paths:
+#   ./ca-csr-load.py ~/certs/ca.cert ~/certs/acme.csr ~/certs/ca.key ~/certs/acme.cert
+#
+if len(sys.argv) > 1 and len(sys.argv) != 5:
+    print("Error: Either provide all 4 file path arguments or none.", file=sys.stderr)
+    print("Usage: ca-csr-load.py [ca_cert_path] [csr_path] [ca_key_path] [output_cert_path]", file=sys.stderr)
+    sys.exit(1)
 
-# Validate that input files exist and are regular files
+ca_cert_path = sys.argv[1] if len(sys.argv) == 5 else "/tmp/ca.cert"
+csr_path = sys.argv[2] if len(sys.argv) == 5 else "/tmp/acme.csr"
+ca_key_path = sys.argv[3] if len(sys.argv) == 5 else "/tmp/ca.key"
+output_cert_path = sys.argv[4] if len(sys.argv) == 5 else "/tmp/acme.cert"
+
+# Validate that input files exist and are regular files (not symlinks)
 for path in [ca_cert_path, csr_path, ca_key_path]:
+    # Check for symlinks first to prevent symlink attacks
+    if os.path.islink(path):
+        print(f"Error: Symlinks are not allowed for security reasons: {path}", file=sys.stderr)
+        sys.exit(1)
     if not os.path.exists(path):
         print(f"Error: Input file does not exist: {path}", file=sys.stderr)
         sys.exit(1)
     if not os.path.isfile(path):
         print(f"Error: Path is not a regular file: {path}", file=sys.stderr)
-        sys.exit(1)
-    # Check for symlinks to prevent symlink attacks
-    if os.path.islink(path):
-        print(f"Error: Symlinks are not allowed for security reasons: {path}", file=sys.stderr)
         sys.exit(1)
 
 with open(ca_cert_path, "rb") as ca_cert_file:
