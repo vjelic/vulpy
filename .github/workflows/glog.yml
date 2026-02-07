@@ -16,14 +16,16 @@ jobs:
           repository: glogai/glog-action
           token: ${{ secrets.PAT_TOKEN }}
           path: .github/glog-action
-          ref: feature/multiple-images-for-lang
+          ref: mr/upload-issues-and-autofix
 
-      - name: Run Glog.AI from private repo
+      - name: Run Glog.AI
         uses: ./.github/glog-action
         with:
+          client: 'test'
+          upload: 'false'
           lang: 'python'
-          debug: 'false'
-          client: 'demo'
-          upload: 'true'
           github-token: ${{ secrets.PAT_TOKEN }}
           glog-token: ${{ secrets.GLOG_TOKEN }}
+          env: 'dev'
+          issue: 'true'
+          autofix: 'true'
