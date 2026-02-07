@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import datetime
+import tempfile
 
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives.asymmetric import rsa
@@ -28,13 +29,17 @@ pem_public = public_key.public_bytes(
     format=serialization.PublicFormat.SubjectPublicKeyInfo
 )
 
-with open('/tmp/ca.key', 'wb') as out:
+# Create secure temporary file for private key
+with tempfile.NamedTemporaryFile(mode='wb', delete=False, prefix='ca-', suffix='.key') as out:
     out.write(pem_private)
+    key_path = out.name
 
-with open('/tmp/ca.pub', 'wb') as out:
+# Create secure temporary file for public key
+with tempfile.NamedTemporaryFile(mode='wb', delete=False, prefix='ca-', suffix='.pub') as out:
     out.write(pem_public)
+    pub_path = out.name
 
-print('Created files in /tmp/ca.key /tmp/ca.pub /tmp/ca.cert')
+print(f'Created files: {key_path} {pub_path}', end='')
 
 # Various details about who we are. For a self-signed certificate the
 # subject and issuer are always the same.
@@ -54,7 +59,10 @@ cert = cert.not_valid_before(datetime.datetime.utcnow())
 cert = cert.not_valid_after(datetime.datetime.utcnow() + datetime.timedelta(days=30))
 cert = cert.sign(private_key, hashes.SHA256(), default_backend())
 
-# Write our certificate out to disk.
-with open('/tmp/ca.cert', 'wb') as out:
+# Write our certificate out to disk using secure temporary file
+with tempfile.NamedTemporaryFile(mode='wb', delete=False, prefix='ca-', suffix='.cert') as out:
     out.write(cert.public_bytes(serialization.Encoding.PEM))
+    cert_path = out.name
+
+print(f' {cert_path}')
 
