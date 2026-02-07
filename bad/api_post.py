@@ -39,7 +39,7 @@ def cmd_api_client(message):
 
         # Create the file with secure permissions atomically (owner read/write only)
         # Using os.open() to avoid race condition between file creation and chmod
-        fd = os.open(api_key_file, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o600)
+        fd = os.open(str(api_key_file), os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o600)
         try:
             os.write(fd, api_key.encode('utf-8'))
         finally:
