@@ -13,7 +13,7 @@ from cryptography.hazmat.primitives import hashes
 
 # Accept key file path as command-line argument to avoid hardcoded insecure paths
 if len(sys.argv) < 2:
-    print(f"Usage: {sys.argv[0]} <path-to-key-file> [output-csr-path]", file=sys.stderr)
+    print(f"Usage: {sys.argv[0]} <key-file> [output-csr-file]", file=sys.stderr)
     print("Error: Key file path is required", file=sys.stderr)
     sys.exit(1)
 
@@ -22,15 +22,26 @@ csr_file_path = sys.argv[2] if len(sys.argv) > 2 else None
 
 # If no output path specified, use same directory as key file
 if csr_file_path is None:
-    output_dir = os.path.dirname(key_file_path) if os.path.dirname(key_file_path) else "."
+    output_dir = os.path.dirname(key_file_path)
+    output_dir = output_dir if output_dir else "."
     csr_file_path = os.path.join(output_dir, "acme.csr")
 
-with open(key_file_path, "rb") as key_file:
-    private_key = serialization.load_pem_private_key(
-        key_file.read(),
-        password=None,
-        backend=default_backend()
-    )
+try:
+    with open(key_file_path, "rb") as key_file:
+        private_key = serialization.load_pem_private_key(
+            key_file.read(),
+            password=None,
+            backend=default_backend()
+        )
+except FileNotFoundError:
+    print(f"Error: Key file not found: {key_file_path}", file=sys.stderr)
+    sys.exit(1)
+except PermissionError:
+    print(f"Error: Permission denied reading key file: {key_file_path}", file=sys.stderr)
+    sys.exit(1)
+except Exception as e:
+    print(f"Error: Failed to load key file: {e}", file=sys.stderr)
+    sys.exit(1)
 
 # Generate a CSR
 csr = x509.CertificateSigningRequestBuilder()
