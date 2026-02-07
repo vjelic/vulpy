@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
+import os
 
 from binascii import unhexlify
 
@@ -13,7 +14,11 @@ from cryptography.exceptions import InvalidSignature
 msg = sys.argv[1].encode()
 signature = unhexlify(sys.argv[2])
 
-with open("/tmp/acme.pub", "rb") as key_file:
+# Use environment variable or command-line argument for key file path
+# Default to /tmp/acme.pub for backward compatibility (not secure)
+key_file_path = os.environ.get('RSA_PUBLIC_KEY_PATH', sys.argv[3] if len(sys.argv) > 3 else '/tmp/acme.pub')
+
+with open(key_file_path, "rb") as key_file:
     public_key = serialization.load_pem_public_key(
         key_file.read(),
         backend=default_backend()
