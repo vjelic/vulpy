@@ -26,15 +26,22 @@ pem_public = public_key.public_bytes(
 )
 
 # Securely create private key file with restricted permissions (owner read/write only)
-# Use O_CREAT | O_TRUNC to overwrite if exists, with secure permissions set atomically
+# Check for symlinks to prevent symlink attacks
 private_key_path = '/tmp/acme.key'
-fd_private = os.open(private_key_path, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o600)
+if os.path.islink(private_key_path):
+    raise OSError(f"Refusing to overwrite symlink at {private_key_path}")
+
+fd_private = os.open(private_key_path, os.O_WRONLY | os.O_CREAT | os.O_TRUNC | os.O_NOFOLLOW, 0o600)
 with os.fdopen(fd_private, 'wb') as out:
     out.write(pem_private)
 
-# Securely create public key file with appropriate permissions (owner read/write, others read)
+# Securely create public key file with appropriate permissions
+# Check for symlinks to prevent symlink attacks
 public_key_path = '/tmp/acme.pub'
-fd_public = os.open(public_key_path, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o644)
+if os.path.islink(public_key_path):
+    raise OSError(f"Refusing to overwrite symlink at {public_key_path}")
+
+fd_public = os.open(public_key_path, os.O_WRONLY | os.O_CREAT | os.O_TRUNC | os.O_NOFOLLOW, 0o644)
 with os.fdopen(fd_public, 'wb') as out:
     out.write(pem_public)
 
