@@ -1,6 +1,17 @@
 #!/usr/bin/env python3
+"""
+CA Certificate Creation Script
+
+This script creates a self-signed CA certificate, private key, and public key
+using secure temporary files to prevent symlink attacks and race conditions.
+
+The actual file paths are printed to stdout. If you need to use these files
+with other scripts (e.g., ca-csr-load.py), you will need to update those
+scripts with the generated file paths.
+"""
 
 import datetime
+import sys
 import tempfile
 
 from cryptography.hazmat.backends import default_backend
@@ -29,17 +40,19 @@ pem_public = public_key.public_bytes(
     format=serialization.PublicFormat.SubjectPublicKeyInfo
 )
 
-# Create secure temporary file for private key
-with tempfile.NamedTemporaryFile(mode='wb', delete=False, prefix='ca-', suffix='.key') as out:
-    out.write(pem_private)
-    key_path = out.name
+try:
+    # Create secure temporary file for private key
+    with tempfile.NamedTemporaryFile(mode='wb', delete=False, prefix='ca-', suffix='.key') as out:
+        out.write(pem_private)
+        key_path = out.name
 
-# Create secure temporary file for public key
-with tempfile.NamedTemporaryFile(mode='wb', delete=False, prefix='ca-', suffix='.pub') as out:
-    out.write(pem_public)
-    pub_path = out.name
-
-print(f'Created files: {key_path} {pub_path}', end='')
+    # Create secure temporary file for public key
+    with tempfile.NamedTemporaryFile(mode='wb', delete=False, prefix='ca-', suffix='.pub') as out:
+        out.write(pem_public)
+        pub_path = out.name
+except Exception as e:
+    print(f"Error creating key files: {e}", file=sys.stderr)
+    sys.exit(1)
 
 # Various details about who we are. For a self-signed certificate the
 # subject and issuer are always the same.
@@ -60,9 +73,13 @@ cert = cert.not_valid_after(datetime.datetime.utcnow() + datetime.timedelta(days
 cert = cert.sign(private_key, hashes.SHA256(), default_backend())
 
 # Write our certificate out to disk using secure temporary file
-with tempfile.NamedTemporaryFile(mode='wb', delete=False, prefix='ca-', suffix='.cert') as out:
-    out.write(cert.public_bytes(serialization.Encoding.PEM))
-    cert_path = out.name
-
-print(f' {cert_path}')
+try:
+    with tempfile.NamedTemporaryFile(mode='wb', delete=False, prefix='ca-', suffix='.cert') as out:
+        out.write(cert.public_bytes(serialization.Encoding.PEM))
+        cert_path = out.name
+    
+    print(f'Created files: {key_path} {pub_path} {cert_path}')
+except Exception as e:
+    print(f"Error creating certificate file: {e}", file=sys.stderr)
+    sys.exit(1)
 
