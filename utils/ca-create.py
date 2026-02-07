@@ -43,8 +43,6 @@ with open(ca_key_path, 'wb') as out:
 with open(ca_pub_path, 'wb') as out:
     out.write(pem_public)
 
-print(f'Created files in {ca_key_path} {ca_pub_path} (cert will be at {ca_cert_path})')
-
 # Various details about who we are. For a self-signed certificate the
 # subject and issuer are always the same.
 subject = issuer = x509.Name([
@@ -67,5 +65,9 @@ cert = cert.sign(private_key, hashes.SHA256(), default_backend())
 with open(ca_cert_path, 'wb') as out:
     out.write(cert.public_bytes(serialization.Encoding.PEM))
 
-print(f'All files created in directory: {temp_dir}')
+print(f'Successfully created CA files in directory: {temp_dir}')
+print(f'  - Private key: {ca_key_path}')
+print(f'  - Public key: {ca_pub_path}')
+print(f'  - Certificate: {ca_cert_path}')
+print(f'\nNote: Files are in a secure temporary directory. Copy them if needed before system cleanup.')
 
