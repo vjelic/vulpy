@@ -11,8 +11,8 @@ from pathlib import Path
 # Retrieve JWT secret from environment variable
 # This prevents hardcoding sensitive credentials in source code (CWE-798)
 secret = os.getenv('JWT_SECRET')
-if not secret:
-    raise ValueError('JWT_SECRET environment variable must be set for secure JWT token generation')
+if not secret or not secret.strip():
+    raise ValueError('JWT_SECRET environment variable must be set to a non-empty value for secure JWT token generation')
 
 not_after = 60 # 1 minute
 
