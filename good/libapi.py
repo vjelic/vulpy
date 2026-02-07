@@ -3,11 +3,17 @@ import random
 import hashlib
 import re
 import jwt
+import os
 from time import time
 
 from pathlib import Path
 
-secret = 'MYSUPERSECRETKEY'
+# Retrieve JWT secret from environment variable
+# This prevents hardcoding sensitive credentials in source code (CWE-798)
+secret = os.getenv('JWT_SECRET', '').strip()
+if not secret:
+    raise ValueError('JWT_SECRET environment variable must be set to a non-empty value for secure JWT token generation')
+
 not_after = 60 # 1 minute
 
 def keygen(username, password=None, login=True):
@@ -21,7 +27,7 @@ def keygen(username, password=None, login=True):
         'username': username,
         'nbf': now,
         'exp': now + not_after
-        }, secret, algorithm='HS256').decode()
+        }, secret, algorithm='HS256')
 
     return token
 
