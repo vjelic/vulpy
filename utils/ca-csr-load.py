@@ -27,12 +27,17 @@ from cryptography.hazmat.primitives import hashes
 if len(sys.argv) > 1 and len(sys.argv) != 5:
     print("Error: Either provide all 4 file path arguments or none.", file=sys.stderr)
     print("Usage: ca-csr-load.py [ca_cert_path] [csr_path] [ca_key_path] [output_cert_path]", file=sys.stderr)
+    print("  ca_cert_path    - Path to CA certificate file", file=sys.stderr)
+    print("  csr_path        - Path to Certificate Signing Request file", file=sys.stderr)
+    print("  ca_key_path     - Path to CA private key file", file=sys.stderr)
+    print("  output_cert_path - Path where the signed certificate will be written", file=sys.stderr)
     sys.exit(1)
 
-ca_cert_path = sys.argv[1] if len(sys.argv) == 5 else "/tmp/ca.cert"
-csr_path = sys.argv[2] if len(sys.argv) == 5 else "/tmp/acme.csr"
-ca_key_path = sys.argv[3] if len(sys.argv) == 5 else "/tmp/ca.key"
-output_cert_path = sys.argv[4] if len(sys.argv) == 5 else "/tmp/acme.cert"
+use_custom_paths = len(sys.argv) == 5
+ca_cert_path = sys.argv[1] if use_custom_paths else "/tmp/ca.cert"
+csr_path = sys.argv[2] if use_custom_paths else "/tmp/acme.csr"
+ca_key_path = sys.argv[3] if use_custom_paths else "/tmp/ca.key"
+output_cert_path = sys.argv[4] if use_custom_paths else "/tmp/acme.cert"
 
 # Validate that input files exist and are regular files (not symlinks)
 for path in [ca_cert_path, csr_path, ca_key_path]:
