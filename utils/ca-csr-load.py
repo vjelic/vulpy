@@ -1,5 +1,19 @@
 #!/usr/bin/env python3
 
+"""
+Certificate Signing Utility
+
+This script loads CA certificate, CSR, and CA private key to sign and create
+a certificate. 
+
+SECURITY NOTE: This script uses predictable file paths in the system temp directory,
+which still presents a potential security risk in multi-user environments. The symlink
+validation helps mitigate some attacks, but for production use, consider:
+1. Using tempfile.NamedTemporaryFile() with unique filenames
+2. Implementing file locking mechanisms
+3. Running in a dedicated, access-controlled directory
+"""
+
 import datetime
 import sys
 import os
@@ -27,11 +41,12 @@ for path in [ca_cert_path, acme_csr_path, ca_key_path]:
     if not os.path.exists(path):
         print(f"Error: Required file not found: {path}", file=sys.stderr)
         sys.exit(1)
-    if not os.path.isfile(path):
-        print(f"Error: Path is not a regular file: {path}", file=sys.stderr)
-        sys.exit(1)
+    # Check for symlinks first to prevent symlink attacks
     if os.path.islink(path):
         print(f"Error: Path is a symbolic link (potential security risk): {path}", file=sys.stderr)
+        sys.exit(1)
+    if not os.path.isfile(path):
+        print(f"Error: Path is not a regular file: {path}", file=sys.stderr)
         sys.exit(1)
 
 with open(ca_cert_path, "rb") as ca_cert_file:
