@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
-import shlex
 import subprocess
 import sys
 
-program = shlex.quote(sys.argv[1])
-username = shlex.quote(sys.argv[2])
+program = sys.argv[1]
+username = sys.argv[2]
 
 passwords = [
     '1',
@@ -19,8 +18,7 @@ passwords = [
 ]
 
 for password in passwords:
-    quoted_password = shlex.quote(password)
-    result = subprocess.run([program, username, quoted_password], stdout=subprocess.DEVNULL)
+    result = subprocess.run([program, username, password], stdout=subprocess.DEVNULL)
     if result.returncode == 0:
         print("cracked! user: {} password: {}".format(username, password))
         break
