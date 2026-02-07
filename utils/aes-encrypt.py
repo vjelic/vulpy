@@ -25,11 +25,12 @@ def aes_encrypt(key, message):
     key_digest = digest.finalize()
 
 
-    cipher = Cipher(algorithms.AES(key_digest), modes.CFB(iv), backend=default_backend())
+    cipher = Cipher(algorithms.AES(key_digest), modes.GCM(iv), backend=default_backend())
     encryptor = cipher.encryptor()
     encrypted = encryptor.update(message.encode()) + encryptor.finalize()
+    tag = encryptor.tag
 
-    print(hexlify(iv).decode(), hexlify(encrypted).decode())
+    print(hexlify(iv).decode(), hexlify(encrypted).decode(), hexlify(tag).decode())
 
 if __name__ == '__main__':
     aes_encrypt()
