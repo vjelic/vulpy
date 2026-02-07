@@ -29,6 +29,7 @@ def before_request():
 
 # Use secure directory for SSL certificates instead of world-writable /tmp
 cert_dir = os.path.join(os.path.dirname(__file__), 'certs')
+os.makedirs(cert_dir, exist_ok=True)
 cert_path = os.path.join(cert_dir, 'acme.cert')
 key_path = os.path.join(cert_dir, 'acme.key')
 
