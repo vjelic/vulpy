@@ -19,12 +19,20 @@ if len(sys.argv) < 2:
 msg = sys.argv[1].encode()
 key_file_path = sys.argv[2] if len(sys.argv) > 2 else "/tmp/acme.key"
 
-with open(key_file_path, "rb") as key_file:
-    private_key = serialization.load_pem_private_key(
-        key_file.read(),
-        password=None,
-        backend=default_backend()
-    )
+try:
+    with open(key_file_path, "rb") as key_file:
+        private_key = serialization.load_pem_private_key(
+            key_file.read(),
+            password=None,
+            backend=default_backend()
+        )
+except FileNotFoundError:
+    print(f"Error: Key file not found at '{key_file_path}'")
+    print("Generate a key first with rsa-keygen.py or specify a valid key file path.")
+    sys.exit(1)
+except Exception as e:
+    print(f"Error reading key file '{key_file_path}': {e}")
+    sys.exit(1)
 
 chosen_hash = hashes.SHA256()
 hasher = hashes.Hash(chosen_hash, default_backend())
