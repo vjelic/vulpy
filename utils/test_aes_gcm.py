@@ -74,11 +74,11 @@ def test_authentication_with_tampered_ciphertext():
     
     returncode, plaintext, stderr = run_decrypt(key, iv, tampered_ciphertext, tag)
     
-    if returncode != 0 and "InvalidTag" in stderr:
+    if returncode != 0 and "Authentication failed" in stderr:
         print("PASSED")
         return True
     else:
-        print(f"FAILED: Expected InvalidTag error, got returncode={returncode}")
+        print(f"FAILED: Expected authentication error, got returncode={returncode}")
         return False
 
 def test_authentication_with_wrong_tag():
@@ -94,11 +94,11 @@ def test_authentication_with_wrong_tag():
     
     returncode, plaintext, stderr = run_decrypt(key, iv, ciphertext, wrong_tag)
     
-    if returncode != 0 and "InvalidTag" in stderr:
+    if returncode != 0 and "Authentication failed" in stderr:
         print("PASSED")
         return True
     else:
-        print(f"FAILED: Expected InvalidTag error, got returncode={returncode}")
+        print(f"FAILED: Expected authentication error, got returncode={returncode}")
         return False
 
 def test_different_keys():
@@ -111,11 +111,11 @@ def test_different_keys():
     iv, ciphertext, tag = run_encrypt(key1, message)
     returncode, plaintext, stderr = run_decrypt(key2, iv, ciphertext, tag)
     
-    if returncode != 0 and "InvalidTag" in stderr:
+    if returncode != 0 and "Authentication failed" in stderr:
         print("PASSED")
         return True
     else:
-        print(f"FAILED: Expected InvalidTag error with wrong key, got returncode={returncode}")
+        print(f"FAILED: Expected authentication error with wrong key, got returncode={returncode}")
         return False
 
 def test_empty_message():

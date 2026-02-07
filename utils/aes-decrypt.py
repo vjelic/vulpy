@@ -22,11 +22,19 @@ def aes_decrypt(key, iv, message, tag):
     digest.update(key.encode())
     key_digest = digest.finalize()
 
-    cipher = Cipher(algorithms.AES(key_digest), modes.GCM(unhexlify(iv), unhexlify(tag)), backend=default_backend())
-    decryptor = cipher.decryptor()
-    plain = decryptor.update(unhexlify(message)) + decryptor.finalize()
+    try:
+        cipher = Cipher(algorithms.AES(key_digest), modes.GCM(unhexlify(iv), unhexlify(tag)), backend=default_backend())
+        decryptor = cipher.decryptor()
+        plain = decryptor.update(unhexlify(message)) + decryptor.finalize()
 
-    print(plain.decode(errors='ignore'))
+        print(plain.decode(errors='ignore'))
+    except Exception as e:
+        # Handle authentication failures with a clear error message
+        if "InvalidTag" in str(type(e).__name__):
+            print(f"Error: Authentication failed. The message has been tampered with or the key/tag is incorrect.", file=sys.stderr)
+            sys.exit(1)
+        else:
+            raise
 
 
 if __name__ == '__main__':

@@ -30,7 +30,10 @@ def aes_encrypt(key, message):
     encrypted = encryptor.update(message.encode()) + encryptor.finalize()
     tag = encryptor.tag
 
-    print(hexlify(iv).decode(), hexlify(encrypted).decode(), hexlify(tag).decode())
+    # Output format: <hex_iv> <hex_ciphertext> <hex_tag>
+    # Note: For empty messages, ciphertext will be an empty string
+    ciphertext_hex = hexlify(encrypted).decode() if encrypted else ""
+    print(hexlify(iv).decode(), ciphertext_hex, hexlify(tag).decode())
 
 if __name__ == '__main__':
     aes_encrypt()
