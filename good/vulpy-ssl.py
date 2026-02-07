@@ -11,6 +11,8 @@ from mod_mfa import mod_mfa
 import libsession
 
 app = Flask('vulpy')
+# WARNING: The fallback value is weak and for development only.
+# In production, always set SECRET_KEY environment variable to a strong random value.
 app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'aaaaaaa')
 
 app.register_blueprint(mod_hello, url_prefix='/hello')
