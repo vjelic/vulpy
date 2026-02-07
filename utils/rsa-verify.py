@@ -10,10 +10,15 @@ from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.asymmetric import padding
 from cryptography.exceptions import InvalidSignature
 
+if len(sys.argv) < 3:
+    print("Usage: rsa-verify.py <message> <signature_hex> [public_key_file]")
+    sys.exit(1)
+
 msg = sys.argv[1].encode()
 signature = unhexlify(sys.argv[2])
+public_key_file = sys.argv[3] if len(sys.argv) > 3 else "/tmp/acme.pub"
 
-with open("/tmp/acme.pub", "rb") as key_file:
+with open(public_key_file, "rb") as key_file:
     public_key = serialization.load_pem_public_key(
         key_file.read(),
         backend=default_backend()
