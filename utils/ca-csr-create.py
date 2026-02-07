@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import datetime
+import tempfile
 
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives.asymmetric import rsa
@@ -32,8 +33,9 @@ csr = csr.subject_name(x509.Name([
 csr = csr.sign(private_key, hashes.SHA256(), default_backend())
 
 # Write our CSR out to disk.
-with open("/tmp/acme.csr", "wb") as out:
+with tempfile.NamedTemporaryFile(mode='wb', suffix='.csr', prefix='acme-', delete=False, dir='/tmp') as out:
     out.write(csr.public_bytes(serialization.Encoding.PEM))
+    csr_path = out.name
 
-print('Created /tmp/acme.csr')
+print(f'Created {csr_path}')
 
