@@ -18,18 +18,22 @@ def aes_encrypt(key, message):
 
     #key = sys.argv[1].encode()
     #plain = sys.argv[2].encode()
-    iv = os.urandom(16)
+    # GCM standard nonce size is 96 bits (12 bytes)
+    # Using random nonce is secure as long as key is not reused excessively
+    # For high-volume encryption, consider implementing nonce tracking or key rotation
+    nonce = os.urandom(12)
 
     digest = hashes.Hash(hashes.SHA256(), backend=default_backend())
     digest.update(key.encode())
     key_digest = digest.finalize()
 
 
-    cipher = Cipher(algorithms.AES(key_digest), modes.CFB(iv), backend=default_backend())
+    cipher = Cipher(algorithms.AES(key_digest), modes.GCM(nonce), backend=default_backend())
     encryptor = cipher.encryptor()
     encrypted = encryptor.update(message.encode()) + encryptor.finalize()
+    tag = encryptor.tag  # Get authentication tag
 
-    print(hexlify(iv).decode(), hexlify(encrypted).decode())
+    print(hexlify(nonce).decode(), hexlify(encrypted).decode(), hexlify(tag).decode())
 
 if __name__ == '__main__':
     aes_encrypt()
