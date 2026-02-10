@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import os
 from pathlib import Path
 
 from flask import Flask, g, redirect, request
@@ -52,4 +53,5 @@ def add_csp_headers(response):
     return response
 
 
-app.run(debug=True, host='127.0.1.1', port=5000, extra_files='csp.txt')
+debug_mode = os.getenv('FLASK_DEBUG', '').lower() in ('true', '1', 'yes')
+app.run(debug=debug_mode, host='127.0.1.1', port=5000, extra_files='csp.txt')
