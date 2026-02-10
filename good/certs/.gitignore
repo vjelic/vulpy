@@ -1,0 +1,5 @@
+# Exclude SSL certificate files for security
+*.cert
+*.key
+*.pem
+*.crt
