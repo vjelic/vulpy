@@ -1,4 +1,5 @@
 import libuser
+import os
 import random
 import hashlib
 import re
@@ -7,7 +8,7 @@ from time import time
 
 from pathlib import Path
 
-secret = 'MYSUPERSECRETKEY'
+secret = os.environ.get('VULPY_JWT_SECRET') or os.urandom(32).hex()
 not_after = 60 # 1 minute
 
 def keygen(username, password=None, login=True):
@@ -48,4 +49,3 @@ def authenticate(request):
         return None
 
     return decoded['username']
-
