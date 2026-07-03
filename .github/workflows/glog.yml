@@ -22,10 +22,10 @@ jobs:
         uses: ./.github/glog-action
         with:
           client: 'test'
-          upload: 'false'
+          upload: 'true'
           lang: 'python'
           github-token: ${{ secrets.PAT_TOKEN }}
           glog-token: ${{ secrets.GLOG_TOKEN }}
           env: 'dev'
-          issue: 'true'
-          autofix: 'true'
+          issue: 'false'
+          autofix: 'false'
